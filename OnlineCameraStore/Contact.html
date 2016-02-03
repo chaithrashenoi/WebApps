@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>SNAPiT</title>
+	<link href="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link href="/jadrn026/servlets/proj3/post_ajax3.css" rel="stylesheet">
+	<script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+  <script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+	<script>
+	$(function() {
+	 $( "#menu1" ).menu();
+	 });
+	$(function() {
+	 $( "#menu2" ).menu();
+	 });	</script>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	
+
+	
+	</style>
+</head>
+<body>
+</head>
+<body>
+<div id="header">
+<h2 align="center">SNAP<i>i</i>T</h1>
+<h3>SAME DAY SHIPPING<br> on most orders till 8pm</h2>
+<table id="table2"  >
+<tr>
+<td>
+<form method="post" 
+      action="../../servlet/proj3/SearchKey"
+			name="search">
+<input id="key" type="text" name="key" size="40" placeholder="search by #sku, name, brand or category " >
+<input name="send"  type="submit"  value="SEARCH">
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<nav id="tabs_nav">
+  <ul>
+		<li><a href="/jadrn026/proj3.html">Home</a></li>
+		<li class="active"><a href="/jadrn026/servlets/proj3/Contact.html">Contact Us</a></li>
+		<li  ><a href="/jadrn026/servlets/proj3/About.html">About Us</a></li>
+		<li><a href="/jadrn026/servlet/proj3/ShowCart">Show Cart</a></li>
+  </ul>
+</nav>
+
+<div>
+<fieldset style="width: 700px;border-radius: 10px;font-size: 16px;  margin:auto; box-shadow: 4px 4px 3px #333329;border-color: #424242; ">
+ 
+<H4 align="center"><b>Contact Information</b></H4><br/><br/>
+
+<h5><b>Store Address:</b></h5>
+<p>
+ 481 EL CAMINO REAL,<br/>
+Santa Clara, CA, 95050</p><br/>
+
+<div align="left" width= "70px" height="auto">
+ 
+<img src="http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/map.jpg" >
+ 
+</div><br/>
+
+<p><h5><b>Email-Address:</b></h5>Email:store_inf@snapit.com</p><br/>
+
+
+<p><h5><b>Telephone and fax Information:</b></h5>
+<b>TelePhone:</b>(408)-248-9988<br/>
+<b>fax:</b>(866)-247-0278</p>
+
+
+
+</fieldset>
+</div>
+<div id="footer">
+<p align="center" >481 EL CAMINO REAL,Santa Clara, CA, 95050. 2013 SNAPiT, Inc. All rights reserved.<br>
+Encountered problems with this site? Contact:(000)000 000.
+</p>
+</div>
+</body>
+</html>

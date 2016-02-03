@@ -1,0 +1,90 @@
+use jadrn026;
+drop table if exists  on_hand3;
+drop table if exists  merchandise_out3;
+ 
+create table on_hand3(
+    sku char(7) NOT NULL,
+    quantity INT);
+
+ create table merchandise_out3(
+    sku char(7) NOT NULL,
+    quantity INT );
+    
+delete from on_hand3;
+delete from merchandise_out3;
+
+insert into on_hand3 values('AAA-001',20);
+insert into on_hand3 values('AAA-011',10);
+insert into on_hand3 values('AAA-014',0);
+insert into on_hand3 values('AAA-017',4);
+insert into on_hand3 values('AAA-018',7);
+insert into on_hand3 values('AAA-019',1);
+insert into on_hand3 values('AAA-020',0);
+insert into on_hand3 values('AAA-021',7);
+insert into on_hand3 values('AAB-002',9);
+insert into on_hand3 values('AAC-002',3);
+insert into on_hand3 values('AAD-002',1);
+insert into on_hand3 values('AAE-002',4);
+insert into on_hand3 values('AAG-002',0);
+insert into on_hand3 values('AAH-002',1);
+insert into on_hand3 values('AAI-002',5);
+insert into on_hand3 values('AAJ-002',7);
+insert into on_hand3 values('AAK-002',3);
+insert into on_hand3 values('AAL-002',4);
+insert into on_hand3 values('AAM-002',2);
+insert into on_hand3 values('AAN-002',12);
+insert into on_hand3 values('AAO-002',1);
+insert into on_hand3 values('AAP-002',10);
+insert into on_hand3 values('AAQ-002',6);
+insert into on_hand3 values('AAR-002',5);
+insert into on_hand3 values('AAS-002',5);
+insert into on_hand3 values('AAT-002',0);
+insert into on_hand3 values('AAW-002',3);
+insert into on_hand3 values('BBB-001',6);
+insert into on_hand3 values('BBB-004',9);
+insert into on_hand3 values('BBB-005',5);
+insert into on_hand3 values('BBB-007',2);
+insert into on_hand3 values('BBB-008',0);
+insert into on_hand3 values('BBB-009',7);
+insert into on_hand3 values('BBB-010',9);
+insert into on_hand3 values('BBB-012',6);
+insert into on_hand3 values('BBB-013',3);
+insert into on_hand3 values('BBB-014',8);
+insert into on_hand3 values('BBB-016',0);
+insert into on_hand3 values('BBB-017',5);
+insert into on_hand3 values('BBB-018',0);
+insert into on_hand3 values('BBB-023',6);
+insert into on_hand3 values('BBB-024',2);
+insert into on_hand3 values('CCC-001',9);
+insert into on_hand3 values('CCC-011',1);
+insert into on_hand3 values('CCC-012',3);
+insert into on_hand3 values('CCC-013',2);
+insert into on_hand3 values('CCC-014',0);
+insert into on_hand3 values('CCC-015',4);
+insert into on_hand3 values('CCC-018',1);
+insert into on_hand3 values('CCC-002',9);
+insert into on_hand3 values('DDD-001',4);
+insert into on_hand3 values('DDD-002',0);
+insert into on_hand3 values('EEE-001',4);
+insert into on_hand3 values('EEE-002',7);
+insert into on_hand3 values('FFF-001',8);
+insert into on_hand3 values('FFF-002',5);
+insert into on_hand3 values('GGG-001',6);
+insert into on_hand3 values('GGG-002',4);
+insert into on_hand3 values('HHH-001',1);
+insert into on_hand3 values('DDD-011',3);
+insert into on_hand3 values('DDD-012',4);
+insert into on_hand3 values('EEE-011',2);
+insert into on_hand3 values('EEE-012',0);
+insert into on_hand3 values('EEE-013',8);
+insert into on_hand3 values('EEE-014',5);
+insert into on_hand3 values('EEE-017',9);
+insert into on_hand3 values('GGG-001',0);
+insert into on_hand3 values('GGG-011',2);
+
+SELECT quantity FROM on_hand3 WHERE sku= "AAA-001";
+SELECT quantity FROM on_hand3 WHERE sku= "AAA-001" ;
+
+
+
+

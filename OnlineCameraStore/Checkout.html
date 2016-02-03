@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>jQuery UI Example Page</title>
+	<link href="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link href="/jadrn026/servlets/proj3/post_ajax3.css" rel="stylesheet">
+	<script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+  <script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="/jadrn026/servlets/proj3/checkout.js"></script>
+	<script>
+	$(function() {
+	 $( "#menu1" ).menu();
+	 });
+	$(function() {
+	 $( "#menu2" ).menu();
+	 });	</script>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	
+
+	
+	</style>
+</head>
+<body>
+</head>
+<body>
+<div id="header">
+<h2 align="center">SNAP<i>i</i>T</h1>
+<h3>SAME DAY SHIPPING<br> on most orders till 8pm</h2>
+<table id="table2"  >
+<tr>
+<td>
+<form method="post" 
+      action="../../servlet/proj3/SearchKey"
+			name="search">
+<input id="key" type="text" name="key" size="40" placeholder="search by #sku, name, brand or category " >
+<input name="send"  type="submit"  value="SEARCH">
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<nav id="tabs_nav">
+  <ul>
+		<li><a href="/jadrn026/proj3.html">Home</a></li>
+		<li><a href="/jadrn026/servlets/proj3/Contact.html">Contact Us</a></li>
+		<li><a href="/jadrn026/servlets/proj3/About.html">About Us</a></li>
+		<li><a href="/jadrn026/servlet/proj3/ShowCart">Show Cart</a></li>
+  </ul>
+</nav>
+
+				
+  		<div align="center">
+		<fieldset id="check_fld1" style="margin:auto;" ><br/><br/>
+		<h4>Enter your Billing and Shipping Address</h4><br/><br/>
+		
+		<div align="center">
+		<fieldset id="check_fld2"  >
+	<form id="checkout_info1" 
+				encytpe="multipart/form-data"
+				action=""
+				method="post">
+		<h4>Billing Address:</h4><br/><br/>
+		<div style="border-radius:10px; font-size: 13px; color: #525252; margin:auto; " >
+			<label for="Billing_name">Name:</label>
+			<input name="Billing_name" type="text" size="30" /><br/><br/>
+			<label for="Billing_address1">Street Address1:</label>
+			<input name="Billing_address1" type="text" size="40" /><br/><br/>
+			<label for="Billing_address2">Street Address2:</label>
+			<input name="Billing_address2" type="text" size="40" /><br/><br/>
+			<label for="Billing_city">City:</label>
+			<input name="Billing_city" type="text" size="20" /><br/><br/>
+			<label for="Billing_state">State/Province:</label>
+			<select name="Billing_state_select"></select><br/><br/>
+			<label for="Billing_zip">Zip:</label>
+			<input name="Billing_zip" type="text" size="11"/><br/><br/>
+			<label for="Billing_Phone">Phone:</label>
+			<input name="Billing_Phone" type="tel" size="10" maxlength="10"/><br/><br/>
+		</div>
+	</form>
+		</fieldset><br/><br/>
+		</div>
+		
+		
+		<div align="center">
+		<fieldset id="check_fld2">
+<form id="checkout_info2" 
+				encytpe="multipart/form-data"
+				action=""
+				method="post">
+	<input type="checkbox" name="sameas_billadd" />If shipping address is same as Billing Address<br/><br/>
+			<h4>Shipping Address:</h4><br/><br/>
+		<div style="border-radius:10px; font-size: 13px; color: #525252;margin:auto;" >
+			<label for="Shipping_name">Name:</label>
+			<input name="Shipping_name" type="text" size="30" /><br/><br/>
+			<label for="Shipping_address1">Street Address1:</label>
+			<input name="Shipping_address1" type="text" size="40" /><br/><br/>
+			<label for="Shipping_address2">Street Address2:</label>
+			<input name="Shipping_address2" type="text" size="40" /><br/><br/>
+			<label for="Shipping_city">City:</label>
+			<input name="Shipping_city" type="text" size="20" /><br/><br/>
+			<label for="Shipping_state">State/Province:</label>
+			<select name="Shipping_state_select"></select><br/><br/>
+			<label for="Shipping_zip">Zip:</label>
+			<input name="Shipping_zip" type="text" size="11"/><br/><br/>
+			<label for="Shipping_Phone">Phone:</label>
+			<input name="Shipping_Phone" type="tel" size="10" maxlength="10"/><br/><br/>
+		</div>
+</form>
+		</fieldset><br/><br/>
+		</div>
+		
+		<div align="center">
+		<fieldset id="check_fld2">
+			<h4>Credit Card Information:</h4><br/><br/>
+<form id="checkout_info3" 
+				encytpe="multipart/form-data"
+				action=""
+				method="post">
+		<div style="border-radius:10px; font-size: 13px; color: #525252;margin:auto;" >
+			<label for="cardType">Credit Card Type:</label>
+			<select name="cardType">
+				<option selected value="">Pick a card Type</option>
+				<option value="american express">American Express</option>
+				<option value="mastercard">Mastercard</option>
+				<option value="visa">Visa</option>
+			</select><br/><br/>
+			<label for="cardNumber">Credit Card Number:</label>
+			<input name="cardNumber" type="text" size="16" maxlength="16" /><br/><br/>
+			<label for="expirationMonth">Expiration:</label>
+			<select name="Month">
+				<option selected value="">Month</option>
+				<option value="January">January</option>
+				<option value="February">February</option>
+				<option value="March">March</option>
+				<option value="April">April</option>
+				<option value="May">May</option>
+				<option  value="June">June</option>
+				<option  value="July">July</option>
+				<option  value="August">August</option>
+				<option  value="September">September</option>
+				<option  value="October">October</option>
+				<option  value="November">November</option>
+				<option  value="December">December</option>
+			</select>-
+			<select name="Year">
+				<option selected value="">Year</option>
+				<option value="2014">2014</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+				<option value="2021">2021</option>
+				<option value="2022">2022</option>
+				<option value="2023">2023</option>
+				<option value="2024">2024</option>
+				<option value="2025">2025</option>
+			</select><br/><br/>
+			<label for="securityCode">Security Code:</label>
+			<input name="securityCode" type="text" size="4" maxlength="4" /> 
+		</div>
+</form>
+		</fieldset>
+		</div><br/><br/>
+
+
+			<input type="button" name="reset" value="Clear Data"style="background-color:#424242; color: #D0ECF9; font-size: 15px; border-radius: 10px;" />
+			<input type="button" name="reviewCheckout" value="Review Your Order" style="background-color:#424242; color: #D0ECF9; font-size: 15px; border-radius: 10px;" />
+			<div id= "message_line_checkout" ></div>
+		</div>
+		</fieldset>
+		</div>
+
+
+
+
+
+
+
+<div id="footer">
+<p align="center" >481 EL CAMINO REAL,Santa Clara, CA, 95050. 2013 SNAPiT, Inc. All rights reserved.<br>
+Encountered problems with this site? Contact:(000)000 000.
+</p>
+</div>
+</body>
+</html>

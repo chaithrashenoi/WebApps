@@ -1,0 +1,3 @@
+use jadrn026;
+
+SELECT manufacturers_id, sku, product_image FROM product3 WHERE category_description= "Digital SLR"

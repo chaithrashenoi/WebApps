@@ -1,0 +1,287 @@
+html,body { margin: 0;
+    background-size: 100%;
+    background-color: #D0ECF9;
+}
+
+#mainContainer {
+    overflow:hidden;
+}
+
+div#header {
+    
+    height:120px;
+    background-image:url("http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/navbar7.jpg");
+    
+}
+
+h2 {font-size:600%; padding: 0px;
+    margin: 0px;color:#D0ECF9;
+font-family: monospace;}
+h3 {font-size:150%;    padding: 0px; padding-left:10px;
+    margin: 0px; color: #D0ECF9;
+}
+h4 {font-size:150%; padding: 0px;
+    margin: 0px; color: #525252;
+}
+
+h5 {font-size:100%; padding: 0px;
+    margin: 0px; color: #525252;
+}
+table#table2 { border-radius: 10px;
+		padding-top:1px;
+    padding-left:60%;
+    }
+    
+#menu_pane{
+    padding-top: 20px;
+}
+
+#table_div{
+    padding-top: 50px;
+}
+
+#table_div1{
+    padding-top: 0px;
+}
+
+.tr_border {
+    border-collapse: collapse;
+    border-color: white;
+}
+
+.td_border {
+    border-color: white;
+    border-style: none;
+    border-width:1px;
+    border-radius: 15px;
+}
+
+
+table#table_pr {
+    border-spacing: 15px;
+    background-color: #D0ECF9
+    }
+    
+#menuLeft1{
+    float: left;
+}
+
+#menuLeft2{
+    float: left;
+    clear: left;
+ }
+
+#menu1{
+    font-size:150%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px #333329;
+}
+
+#menu2{
+    font-size:150%;
+    border-radius: 15px;
+    box-shadow: 4px 4px 2px #333329;
+}
+
+img#img_tile{
+    width: 150px;
+    height: auto;
+
+}
+
+img#img_cart{
+    width: 75px;
+    height: auto;
+
+}
+
+div#div_tile {
+    padding-top: 20px;
+    text-align: center;
+    width:250px;
+    height:250px;
+    box-shadow: 4px 4px 2px #333329;
+    background-color: white;
+    border-radius: 15px;
+    font-size:140%;
+    color: #10413b;
+}
+
+div#div_tile a {
+text-decoration: none;
+ }
+
+
+input.highlight1:hover
+{
+    background-color:#424242;
+    color: #D0ECF9;
+}
+
+div#div_tile:hover, div#div_tile:active {
+    background-color: #B2E0F0;
+}
+
+th#thead{
+
+background-color: #424242;
+color: #D0ECF9;
+width:70%;
+padding: 5px;    
+}
+
+td#tdata{
+  width:55%;
+  vertical-align: top ;
+}
+
+
+
+div#search{
+
+  height: 30px;
+  width:280px;
+  background:url("http://jadran.sdsu.edu/~jadrn026/proj3/search.gif") no-repeat;
+  background-position: 250px;	
+
+ 
+ }
+
+div#footer {
+        padding-top:10px;
+
+    font-size: medium;
+    height:70px;
+    background-image:url("http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/navbar7.jpg");
+    
+    color:#D0ECF9	;
+}
+
+div#footerPr {
+    padding-top:10px;
+    font-size: medium;
+    height:70px;
+    width:100%;
+    background-image:url("http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/navbar7.jpg");
+    
+    color:#D0ECF9	;
+}
+
+#check_fld1
+{
+    width:700px;
+    border-collapse: collapse;
+    border-radius: 10px;
+    box-shadow: 2px 2px 1px #333329;
+}
+
+#check_fld2
+{
+    width:550px;
+    box-shadow: 2px 2px 1px #333329;
+    border-radius: 10px;
+}
+#tabs_nav ul {
+	list-style: none;
+	padding:15px;
+	margin:0;
+}
+
+
+#tabs_nav li {
+	display: inline;
+}
+
+#message_line_product {
+  
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+       
+}
+
+
+#message_line_checkout{
+  font-size: 13px;
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+       
+}
+  
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+       
+}
+  
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+       
+}
+
+#answer1_product {
+
+    font-family: sans-serif;
+    font-style: italic;
+       
+    color: green;
+    }
+    
+#error1_product {
+
+    font-family: sans-serif;
+    font-style: italic;
+       
+    color:  red;
+    }
+
+.message_line_cart {
+  
+    color: red;
+    font-family: sans-serif;
+    font-style: italic;
+       
+}
+
+.answer1_cart {
+
+    font-family: sans-serif;
+    font-style: italic;
+       
+    color: green;
+    }
+    
+.error1_cart {
+
+    font-family: sans-serif;
+    font-style: italic;
+       
+    color:  red;
+    }
+
+#tabs_nav li a {
+    color:#B2E0F0;
+    background: #525252;
+    padding: 8px;
+    width: 100px;
+    font-size: 13px;
+    box-shadow: 2px 2px 1px #333329;
+    border-radius: 10px;
+text-decoration: none;
+}
+
+nav#tabs_nav a:hover, nav#tabs_nav li.active a {
+  background: white;
+  color:black;
+    }
+    
+.remove_cart {
+  background: url('http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/remove.png') center center no-repeat;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+

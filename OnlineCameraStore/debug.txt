@@ -1,0 +1,997 @@
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=3
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=3
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Nikon
+ShowCat:Nikon:::Rebel XTi
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:Canon
+ShowCat:Canon:::EOS Rebel T5i
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=3
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=4
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=4
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=4
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=4
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=4
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Pointshoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Pointshoot"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Mirrorless
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Mirrorless"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Pointshoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Pointshoot"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Pointshoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Pointshoot"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Mirrorless
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Mirrorless"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Point and Shoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Point and Shoot"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowCat:COOLPIX P520
+ShowCat:270.85
+ShowCat:Nikon:::AAA-002
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/C1.jpg
+ShowCat:Cyber-shot
+ShowCat:90.00
+ShowCat:Sony:::CCC-001
+ShowCat: called ------------------
+ShowCat:Mirror-less
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Mirror-less"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/E2.jpg
+ShowCat:OM-D
+ShowCat:1083.00
+ShowCat:Olympus:::EEE-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:BBB-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "BBB-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowProd:EOS Rebel T5i:::BBB-002
+ShowCat: called ------------------
+ShowCat:Point and Shoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Point and Shoot"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowCat:COOLPIX P520
+ShowCat:270.85
+ShowCat:Nikon:::AAA-002
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/C1.jpg
+ShowCat:Cyber-shot
+ShowCat:90.00
+ShowCat:Sony:::CCC-001
+ShowProd: called ------------------
+ShowProd:CCC-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "CCC-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/C1.jpg
+ShowProd:Cyber-shot:::CCC-001
+ShowProd: called ------------------
+ShowProd:AAA-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowProd:COOLPIX P520:::AAA-002
+ShowCat: called ------------------
+ShowCat:Mirror-less
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Mirror-less"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/E2.jpg
+ShowCat:OM-D
+ShowCat:1083.00
+ShowCat:Olympus:::EEE-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Point and Shoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Point and Shoot"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowCat:COOLPIX P520
+ShowCat:270.85
+ShowCat:Nikon:::AAA-002
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/C1.jpg
+ShowCat:Cyber-shot
+ShowCat:90.00
+ShowCat:Sony:::CCC-001
+ShowCat: called ------------------
+ShowCat:Tripods
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Tripods"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Memory Cards
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Memory Cards"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Lenses"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowProd: called ------------------
+ShowProd:AAA-001
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-001"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowProd:Rebel XTi:::AAA-001
+ShowCat: called ------------------
+ShowCat:Point and Shoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Point and Shoot"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowCat:COOLPIX P520
+ShowCat:270.85
+ShowCat:Nikon:::AAA-002
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/C1.jpg
+ShowCat:Cyber-shot
+ShowCat:90.00
+ShowCat:Sony:::CCC-001
+ShowProd: called ------------------
+ShowProd:AAA-002
+ShowProd: SELECT vendor_description, category_description, manufacturers_id, description, features,cost, retail, product_image FROM product WHERE sku= "AAA-002"
+ShowProd:numCols=8
+ShowProd:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A2.jpg
+ShowProd:COOLPIX P520:::AAA-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Lenses
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Lenses"
+ShowCat: called ------------------
+ShowCat:Point and Shoot
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Point and Shoot"
+ShowCat: called ------------------
+ShowCat:Mirror-less
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Mirror-less"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Memory Cards
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Memory Cards"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat: called ------------------
+ShowCat:Digital SLR
+ShowCat: SELECT vendor_description, manufacturers_id, sku, cost, product_image FROM product3 WHERE category_description= "Digital SLR"
+ShowCat:numCols=5
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A1.jpg
+ShowCat:Rebel XTi
+ShowCat:465.50
+ShowCat:Nikon:::AAA-001
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A11.jpg
+ShowCat:D610 FX-format
+ShowCat:1,896.95
+ShowCat:Nikon:::AAA-011
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A12.jpg
+ShowCat:D3200 24.2MP
+ShowCat:496.95
+ShowCat:Nikon:::AAA-012
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A13.jpg
+ShowCat:D3100 14.2MP
+ShowCat:426.95
+ShowCat:Nikon:::AAA-013
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A14.jpg
+ShowCat:D3300 24.2MP
+ShowCat:646.95
+ShowCat:Nikon:::AAA-014
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A15.jpg
+ShowCat:D3000 10.2MP
+ShowCat:249.00
+ShowCat:Nikon:::AAA-015
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A16.jpg
+ShowCat:D5200 24.1MP
+ShowCat:746.95
+ShowCat:Nikon:::AAA-016
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A17.jpg
+ShowCat:D5100 16.2MP
+ShowCat:699.99
+ShowCat:Nikon:::AAA-017
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A18.jpg
+ShowCat:D5300 24.2MP
+ShowCat:1,096.95
+ShowCat:Nikon:::AAA-018
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A19.jpg
+ShowCat:D7100 24.1MP
+ShowCat:1,446.95
+ShowCat:Nikon:::AAA-019
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A20.jpg
+ShowCat:D800 36.3MP
+ShowCat:2,796.95
+ShowCat:Nikon:::AAA-020
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/A21.jpg
+ShowCat:D610 24.3MP
+ShowCat:1,896.95
+ShowCat:Nikon:::AAA-021
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B2.jpg
+ShowCat:EOS Rebel T5i
+ShowCat:720.00
+ShowCat:Canon:::BBB-002
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B3.jpg
+ShowCat:EOS Rebel T3i 18 MP CMOS
+ShowCat:599.00
+ShowCat:Canon:::BBB-003
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B4.jpg
+ShowCat:EOS Rebel T3 12.2 MP CMOS Digital SLR with 18-55mm
+ShowCat:449.00
+ShowCat:Canon:::BBB-004
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B5.jpg
+ShowCat:EOS Rebel SL1 18.0 MP CMOS
+ShowCat:649.00
+ShowCat:Canon:::BBB-005
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B6.jpg
+ShowCat:Rebel T5i Digital
+ShowCat:749.00
+ShowCat:Canon:::BBB-006
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B7.jpg
+ShowCat:EOS 60D 18 MP CMOS
+ShowCat:1,099.00
+ShowCat:Canon:::BBB-007
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B8.jpg
+ShowCat:EOS 70D 20.2 MP
+ShowCat:1,249.00
+ShowCat:Canon:::BBB-008
+ShowCat:image_path:http://jadran.sdsu.edu/~jadrn026/proj1/_uploadDIR_/B9.jpg
+ShowCat:Digital Rebel XT 8MP
+ShowCat:580.00
+ShowCat:Canon:::BBB-009

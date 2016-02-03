@@ -1,0 +1,6 @@
+use jadrn026;
+
+SELECT sku, quantity FROM merchandise_out3;
+
+
+

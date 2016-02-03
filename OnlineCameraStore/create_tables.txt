@@ -1,0 +1,857 @@
+use jadrn026;  drop table if exists vendor;
+drop table if exists category;
+drop table if exists product3;
+ 
+
+create table vendor(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    description varchar(20) NOT NULL );
+    
+
+create table category(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    parent_id int,
+    description varchar(20) NOT NULL );
+    
+create table product3(
+    id int AUTO_INCREMENT PRIMARY KEY,
+    sku char(7) NOT NULL,
+    vendor_description varchar(20),
+    category_description varchar(20),
+    manufacturers_id varchar(50),
+    description BLOB,
+    features BLOB,
+    cost varchar(10),
+    retail varchar(10),
+    product_image varchar(60) );
+
+delete from vendor;
+delete from category;
+delete from product3;
+
+    
+## VENDOR
+insert into vendor values('','Nikon');
+insert into vendor values('','Canon');
+insert into vendor values('','Sony');
+insert into vendor values('','Panasonic');
+insert into vendor values('','Olympus');
+insert into vendor values('','Kodak');            
+insert into vendor values('','Samsung');
+insert into vendor values('','GoPro');
+
+
+## CATEGORY 
+##nikon
+insert into category values('',1,'Digital SLR');
+insert into category values('',1,'Lenses');
+insert into category values('',1,'Tripod');
+insert into category values('',1,'Point and Shoot');
+insert into category values('',1,'Film SLR');
+insert into category values('',1,'Compact');
+insert into category values('',1,'video');
+insert into category values('',1,'Digital camera');
+insert into category values('',1,'Mirror-less');
+insert into category values('',1,'video camera');
+insert into category values('',1,'Smart');
+insert into category values('',1,'Sports and Action');
+insert into category values('',1,'Underwater');
+insert into category values('',1,'Memory Cards');
+
+
+
+
+##canon
+insert into category values('',2,'Digital SLR');
+insert into category values('',2,'Lenses');
+insert into category values('',2,'Tripod');
+insert into category values('',2,'Memory Cards');
+insert into category values('',2,'Point and Shoot');
+insert into category values('',2,'Film SLR');
+insert into category values('',2,'Compact');
+insert into category values('',2,'video');
+insert into category values('',2,'Digital camera');
+insert into category values('',2,'Mirror-less');
+insert into category values('',2,'video camera');
+insert into category values('',2,'Smart');
+insert into category values('',2,'Sports and Action');
+insert into category values('',2,'Underwater');
+
+##Sony
+insert into category values('',3,'Digital SLR');
+insert into category values('',3,'Lenses');
+insert into category values('',3,'Tripod');
+insert into category values('',3,'Memory Cards');
+insert into category values('',3,'Point and Shoot');
+insert into category values('',3,'Film SLR');
+insert into category values('',3,'Compact');
+insert into category values('',3,'video');
+insert into category values('',3,'Digital camera');
+insert into category values('',3,'Mirror-less');
+insert into category values('',3,'video camera');
+insert into category values('',3,'Smart');
+insert into category values('',3,'Sports and Action');
+insert into category values('',3,'Underwater');
+
+##Panasonic
+insert into category values('',4,'Digital SLR');
+insert into category values('',4,'Tripods');
+insert into category values('',4,'Lenses');
+insert into category values('',4,'Memory Cards');
+insert into category values('',4,'Point and Shoot');
+insert into category values('',4,'Film SLR');
+insert into category values('',4,'Compact');
+insert into category values('',4,'video');
+insert into category values('',4,'Digital camera');
+insert into category values('',4,'Mirror-less');
+insert into category values('',4,'video camera');
+insert into category values('',4,'Smart');
+insert into category values('',4,'Sports and Action');
+insert into category values('',4,'Underwater');
+
+##Olympus
+insert into category values('',5,'Digital SLR');
+insert into category values('',5,'Tripods');
+insert into category values('',5,'Memory Cards');
+insert into category values('',5,'Lenses');
+insert into category values('',5,'Point and Shoot');
+insert into category values('',5,'Film SLR');
+insert into category values('',5,'Compact');
+insert into category values('',5,'video');
+insert into category values('',5,'Digital camera');
+insert into category values('',5,'Mirror-less');
+insert into category values('',5,'video camera');
+insert into category values('',5,'Smart');
+insert into category values('',5,'Sports and Action');
+insert into category values('',5,'Underwater');
+
+
+##Kodak
+insert into category values('',6,'Digital SLR');
+insert into category values('',6,'Tripods');
+insert into category values('',6,'Memory Cards');
+insert into category values('',6,'Lenses');
+insert into category values('',6,'Point and Shoot');
+insert into category values('',6,'Film SLR');
+insert into category values('',6,'Compact');
+insert into category values('',6,'video');
+insert into category values('',6,'Digital camera');
+insert into category values('',6,'Mirror-less');
+insert into category values('',6,'video camera');
+insert into category values('',6,'Smart');
+insert into category values('',6,'Sports and Action');
+insert into category values('',6,'Underwater');
+
+##Samsung
+insert into category values('',7,'Digital SLR');
+insert into category values('',7,'Tripods');
+insert into category values('',7,'Memory Cards');
+insert into category values('',7,'Lenses');
+insert into category values('',7,'Point and Shoot');
+insert into category values('',7,'Film SLR');
+insert into category values('',7,'Compact');
+insert into category values('',7,'video');
+insert into category values('',7,'Digital camera');
+insert into category values('',7,'Mirror-less');
+insert into category values('',7,'video camera');
+insert into category values('',7,'Smart');
+insert into category values('',7,'Sports and Action');
+insert into category values('',7,'Underwater');
+
+##GoPro
+insert into category values('',8,'Digital SLR');
+insert into category values('',8,'Tripods');
+insert into category values('',8,'Memory Cards');
+insert into category values('',8,'Point and Shoot');
+insert into category values('',8,'Film SLR');
+insert into category values('',8,'Compact');
+insert into category values('',8,'video');
+insert into category values('',8,'Digital camera');
+insert into category values('',8,'Mirror-less');
+insert into category values('',8,'video camera');
+insert into category values('',8,'Smart');
+insert into category values('',8,'Sports and Action');
+insert into category values('',8,'Underwater');
+
+insert into product3 values('','AAA-001','Nikon','Digital SLR','Rebel XTi','','','465.50','$588.55','A1.jpg');
+insert into product3 values('','AAA-011','Nikon','Digital SLR','D610 FX-format','','','1,896.95','1,996.95','A11.jpg');
+insert into product3 values('','AAA-012','Nikon','Digital SLR','D3200 24.2MP','','','496.95','$599.95','A12.jpg');
+insert into product3 values('','AAA-014','Nikon','Digital SLR','D3300 24.2MP','','','646.95','$696.55','A14.jpg');
+insert into product3 values('','AAA-015','Nikon','Digital SLR','D3000 10.2MP','','','249.00','$288.55','A15.jpg');
+insert into product3 values('','AAA-017','Nikon','Digital SLR','D5100 16.2MP','','','699.99','$788.55','A17.jpg');
+insert into product3 values('','AAA-018','Nikon','Digital SLR','D5300 24.2MP','','','1,096.95','$1158.55','A18.jpg');
+insert into product3 values('','AAA-019','Nikon','Digital SLR','D7100 24.1MP','','','1,446.95','$1570.55','A19.jpg');
+insert into product3 values('','AAA-020','Nikon','Digital SLR','D800 36.3MP','','','2,796.95','$3159.55','A20.jpg');
+insert into product3 values('','AAA-021','Nikon','Digital SLR','D610 24.3MP','','','1,896.95','$1960.55','A21.jpg');
+
+insert into product3 values('','AAA-002','Nikon','Point and Shoot','COOLPIX P520','','','270.85','$346.95','A2.jpg');
+insert into product3 values('','AAB-002','Nikon','Point and Shoot','COOLPIX S4200 16.0MP','','','84.99','$146.95','A22.jpg');
+insert into product3 values('','AAC-002','Nikon','Point and Shoot','COOLPIX S3600 20.1MP','','','119.00','$246.95','A23.jpg');
+insert into product3 values('','AAD-002','Nikon','Point and Shoot','COOLPIX L820 16MP','','','224.00','$342.95','A24.jpg');
+insert into product3 values('','AAE-002','Nikon','Point and Shoot','COOLPIX S2700 16MP','','','73.99','$146.95','A25.jpg');
+insert into product3 values('','AAF-002','Nikon','Point and Shoot','COOLPIX S3500 20.1MP','','','109.00','$230.95','A26.jpg');
+insert into product3 values('','AAG-002','Nikon','Point and Shoot','COOLPIX S6500 Wi-Fi','','','129.00','$206.95','A27.jpg');
+insert into product3 values('','AAH-002','Nikon','Point and Shoot','COOLPIX S8200 16.1MP','','','229.00','$306.95','A28.jpg');
+insert into product3 values('','AAI-002','Nikon','Point and Shoot','Coolpix P7000 10.1MP','','','348.95','$396.95','A29.jpg');
+
+insert into product3 values('','AAJ-002','SanDisk','Memory Cards','32 GB Class 4 SDHC','','','16.86','$36.95','A31.jpg');
+insert into product3 values('','AAK-002','SanDisk','Memory Cards','16 GB Class 4 SDHC','','','9.89','$16.95','A32.jpg');
+
+insert into product3 values('','AAL-002','Butterfly Photo','Tripods','Professional 72-inch','','','32.95','$46.95','A33.jpg');
+insert into product3 values('','AAM-002','Ravelli','Tripods','APLT2 50" Light Weight Aluminum','','','9.89','$16.95','A30.jpg');
+
+insert into product3 values('','AAN-002','Nikon','Film SLR','N80 35mm SLR Film','','','499.00','$610.95','A34.jpg');
+insert into product3 values('','AAO-002','Nikon','Film SLR','FM-10 35mm','','','319.89','$416.95','A36.jpg');
+
+insert into product3 values('','AAP-002','Nikon','Underwater','COOLPIX AW100 16 MP CMOS Waterproof','','','269.00','$340.00','A37.jpg');
+insert into product3 values('','AAQ-002','Nikon','Underwater','COOLPIX AW110 Wi-Fi and Waterproof','','','299.00','$356.95','A38.jpg');
+
+insert into product3 values('','AAR-002','Nikon','Lenses','70-300mm f/4-5.6G AF','','','240.85','$356.95','A39.jpg');
+insert into product3 values('','AAS-002','Nikon','Lenses','35mm f/1.8G AF-S DX','','','196.95','$286.00','A40.jpg');
+insert into product3 values('','AAT-002','Nikon','Lenses','50mm f/1.8G AF-S NIKKOR FX','','','216.95','$296.00','A41.jpg');
+insert into product3 values('','AAU-002','Nikon','Lenses','55-300mm f/4.5-5.6G ED VR AF-S DX','','','396.00','$482.00','A42.jpg');
+insert into product3 values('','AAV-002','Nikon','Lenses','18-200mm f/3.5-5.6G AF-S ED VR II','','','596.99','$750.99','A43.jpg');
+insert into product3 values('','AAW-002','Nikon','Lenses','18-105mm f/3.5-5.6 AF-S DX VR ED','','','396.00','$480.00','A44.jpg');
+
+
+insert into product3 values('','BBB-001','Canon','Film SLR','EOS Rebel 2000','','','350.95','$450.95','B1.jpg');
+
+insert into product3 values('','BBB-002','Canon','Digital SLR','EOS Rebel T5i','','','720.00','$929.00','B2.jpg');
+insert into product3 values('','BBB-004','Canon','Digital SLR','EOS Rebel T3 12.2 MP CMOS Digital SLR with 18-55mm IS II Lens','','','449.00','$599.00','B4.jpg');
+insert into product3 values('','BBB-005','Canon','Digital SLR','EOS Rebel SL1 18.0 MP CMOS','','','649.00','$789.00','B5.jpg');
+insert into product3 values('','BBB-007','Canon','Digital SLR','EOS 60D 18 MP CMOS','','','1,099.00','$1299.00','B7.jpg');
+insert into product3 values('','BBB-008','Canon','Digital SLR','EOS 70D 20.2 MP','','','1,249.00','$1,369.00','B8.jpg');
+insert into product3 values('','BBB-009','Canon','Digital SLR','Digital Rebel XT 8MP','','','580.00','$649.00','B9.jpg');
+
+insert into product3 values('','BBB-010','Canon','Point and Shoot','PowerShot ELPH 130 IS 16.0 MP','','','108.71','$150.00','B10.jpg');
+insert into product3 values('','BBB-011','Canon','Point and Shoot','PowerShot SX510 HS 12.1 MP CMOS ','','','229.00','$330.95','B11.jpg');
+insert into product3 values('','BBB-012','Canon','Point and Shoot','PowerShot A2500 16MP','','','79.00','$150.95','B12.jpg');
+insert into product3 values('','BBB-013','Canon','Point and Shoot','PowerShot A1400 16.0 MP','','','79.99','$150.00','B13.jpg');
+insert into product3 values('','BBB-014','Canon','Point and Shoot','PowerShot SX260 HS 12.1 MP','','','210.00','$310.00','B14.jpg');
+insert into product3 values('','BBB-015','Canon','Point and Shoot','PowerShot ELPH 520 HS 10.1 MP CMOS','','','112.07','$270.95','B15.jpg');
+insert into product3 values('','BBB-016','Canon','Point and Shoot','PowerShot SX50 HS 12MP','','','399.00','$500.95','B16.jpg');
+insert into product3 values('','BBB-017','Canon','Point and Shoot','PowerShot PowerShot SX160 IS 16.0 MP','','','118.95','$270.95','B17.jpg');
+insert into product3 values('','BBB-018','Canon','Point and Shoot','PowerShot ELPH 320 HS 16.1 MP Wi-Fi Enabled','','','209.00','$270.95','B18.jpg');
+insert into product3 values('','BBB-019','Canon','Point and Shoot','PowerShot SX500 IS 16.0 MP','','','198.00','$290.95','B19.jpg');
+insert into product3 values('','BBB-020','Canon','Point and Shoot','PowerShot ELPH 530 HS 10.1 MP Wi-Fi','','','132.00','$200.95','B20.jpg');
+
+insert into product3 values('','BBB-021','Canon','Underwater','PowerShot D30','','','329.00','$380.00','B21.jpg');
+insert into product3 values('','BBB-022','Canon','Underwater','PowerShot D20 12.1 MP','','','229.00','$280.00','B22.jpg');
+
+insert into product3 values('','BBB-023','Canon','Mirror-less','EOS M Mirrorless Digital Camera with 18-55mm','','','384.29','$450.00','B23.jpg');
+insert into product3 values('','BBB-024','Canon','Mirror-less','EOS M Mirrorless Digital Camera with 18-55mm Lens','','','449.95','$510.00','B24.jpg');
+
+insert into product3 values('','CCC-001','Sony','Point and Shoot','Cyber-shot','','','90.00','$158.00','C1.jpg');
+insert into product3 values('','CCC-011','Sony','Digital SLR','SLT-A58K Digital SLR Kit with 18-55mm Zoom Lens, 20.1MP SLR Camera','','','498.00','$558.00','C11.jpg');
+insert into product3 values('','CCC-012','Sony','Digital SLR','Alpha SLT-A65VL DSLR 24.3MP SLR','','','598.00','$658.00','C12.jpg');
+insert into product3 values('','CCC-013','Sony','Digital SLR','a55 DSLR','','','799.00','$998.00','C13.jpg');
+insert into product3 values('','CCC-014','Sony','Digital SLR','A65 24.3 MP Translucent Mirror Digital SLR','','','598.00','$688.00','C14.jpg');
+
+insert into product3 values('','CCC-015','Sony','Digital camera','DSC-WX300/B 18.2 MP Digital Camera','','','229.00','$308.00','C15.jpg');
+insert into product3 values('','CCC-016','Sony','Digital camera','DSC-WX80/W 16 MP Digital Camera','','','118.00','$158.00','C16.jpg');
+insert into product3 values('','CCC-017','Sony','Digital camera','W800/S 20 MP Digital Camera','','','78.00','$158.00','C17.jpg');
+insert into product3 values('','CCC-018','Sony','Digital camera','DSC-W730/P 16.1 MP Digital Camera','','','99.97','$150.00','C18.jpg');
+insert into product3 values('','CCC-019','Sony','Digital camera','DSC-W710/B 16 MP Digital Camera','','','290.00','368.00','C19.jpg');
+
+
+insert into product3 values('','CCC-002','Sony','Digital camera','Alpha a5000','','','720.00','$929.00','C2.jpg');
+
+
+
+
+insert into product3 values('','DDD-001','Panasonic','Digital camera','Lumix DMC-SZ3','','','68.00','$89.00','D1.jpg');
+insert into product3 values('','DDD-002','Panasonic','video','V100M','','','135.00','$182.00','D2.jpg');
+insert into product3 values('','EEE-001','Olympus','Digital camera','SZ-12','','','85.00','$109.00','E1.jpg');
+insert into product3 values('','EEE-002','Olympus','Mirror-less','OM-D','','','1083.00','$2035.00','E2.jpg');
+insert into product3 values('','FFF-001','Kodak','Digital camera','EasyShare Z5010','','','131.00','$174.99','F1.jpg');
+insert into product3 values('','FFF-002','Kodak','video camera','PlayFull Dual','','','104.00','$139.95','F2.jpg');
+insert into product3 values('','GGG-001','Samsung','Smart camera','Galaxy Camera','','','285.00','$379.00','G1.jpg');
+insert into product3 values('','GGG-002','Samsung','Underwater','WB150F','','','131.00','$174.99','G2.jpg');
+insert into product3 values('','HHH-001','GoPro','Sports and Action','Hero3','','','299.00','$399.99','H1.jpg');
+
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-001
+UPDATE product3 SET description=\
+"Canon EOS Digital Rebel XTi offers an unbeatable combination of performance, ease-of-use and value. It has a newly designed 10.1-megapixel\
+CMOS sensor plus a host of new features including a 2.5-inch LCD monitor, the exclusive EOS Integrated Cleaning System, and Canon's Picture\
+Style technology, all in a lightweight, ergonomic body. The Digital Rebel XTi is proof positive that Canon continues to lead the way with our\
+phenomenal digital SLRs."
+where sku="AAA-001";
+
+UPDATE product3 SET features=\
+" 10.1-megapixel CMOS sensor captures enough detail for photo-quality 18 x 24-inch prints\
+ Large 2.5-inch LCD display; includes Canon's EF-S 18-55mm, f3.5-5.6 zoom lens\
+ New self-cleaning dust function, plus Dust Delete Data Detection in included software\
+ DIGIC II Image Processor provides fast, accurate image processing; Picture Style settings for added creative control\
+ Stores images on Compact Flash (CF) memory cards; powered by battery pack NB-2LH\
+ Stores images on Compact Flash (CF) memory cards , powered by battery pack NB-2LH\
+ DIGIC II Image Processor provides fast, accurate image processing; Picture Style settings for added creative control"
+where sku="AAA-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-011
+UPDATE product3 SET description=\
+"Feel the power of a 24.3 MP Nikon FX-format CMOS sensor in a compact, HD-SLR body. Create dazzling full-frame images rivaled only by Nikon's D800 series D-SLR\
+and 1080p Full HD videos. Nikon's superior 39-point AF system and Scene Recognition System means details will be clear and crisp—for static or moving subjects.\
+HD video quality rivals more expensive dedicated video cameras. Nikon FX-format quality has never been more attainable."
+where sku="AAA-011";
+
+UPDATE product3 SET features=\
+"24.3 megapixel FX-format CMOS censor
+Remarkable AF performance with compatibility up to f/8
+Intelligent Scene Recognition System with 3D Color Matrix Metering II
+Broadcast-quality full 1080p HD video
+Wi-Fi compatibility with optional WU-1b wireless mobile adapter"
+where sku="AAA-011";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-012
+UPDATE product3 SET description=\
+"Take your photos and videos to the next level. Unrivaled 24.2 megapixel DX-format CMOS sensor for truly dazzling photos and Full HD 1080p \
+movies in any light. Innovative Guide Mode to help you master the camera. HD-SLR power; point-and-shoot ease."
+where sku="AAA-012";
+
+UPDATE product3 SET features=\
+"Wi-Fi Connectivity with adapter (not included)
+24.2 MP DX-format CMOS sensor,Display Screen 3.0-Inch Rear Screen, LCD (921000)
+EXPEED III Image Processing
+Wide ISO sensitivity range,Filter Thread: 52 mm
+One-touch Full HD 1080p movie recording."
+where sku="AAA-012";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-014
+UPDATE product3 SET description=\
+"Capture every special moment in the lifelike quality it deserves—and have a great time doing it! With its included zoom lens, the new ultra-compact\
+AF-S DX NIKKOR 18-55mm f/3.5-5.6G VR II, the D3300 is a small, easy to use HD-SLR. Capture beautiful 24.2-MP photos and 1080p Full HD videos with \
+vibrant colors and softly blurred backgrounds, then share them instantly with your compatible smartphone and the optional WU-1a Wireless Adapter. \
+Whether you're creating high-resolution panoramas, adding fun special effects or recording dazzling HD video with sound, the D3300 will bring you\
+endless joy, excitement and memories—just like the special moments of your life."
+
+where sku="AAA-014";
+
+UPDATE product3 SET features=\
+"-24.2 MP DX-format CMOS sensor\
+-Wi-Fi Connectivity with adapter (not included)\
+-EXPEED 4 Image Processing\
+-1080P Full HD video recording with sound"
+
+where sku="AAA-014";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-015
+UPDATE product3 SET description=\
+"10.2-megapixel DX-format imaging sensor for prints up to 20 x 30 inches Nikon EXPEED image processing; in-camera image editing and Active D-Lighting\
+3.0-inch color LCD screen; 170-degree wide-angle viewing Capture images to SD/SDHC memory cards (not included) in box: Camera Body, Quick Charger, \
+Rechargeable Li-ion Battery, Camera Strap, Nikon 1 Year Warranty."
+
+where sku="AAA-015";
+
+UPDATE product3 SET features=\
+"-10.2-megapixel DX-format CMOS image sensor\
+- Nikon's 10.2 megapixel DX-format CMOS imaging sensor coupled with Nikon's industry\
+-Continuous shooting as fast as 3 frames per second - Combined with fast power-up and split-second shutter response\
+-Bright and sharp, the D3000's 3.0-in., approximately 230k-dot TFT LCD monitor ensures comfortable viewing when playing back photos\
+-The D3000's normal ISO range extends from ISO 100 to 1600, allowing for superior shooting in low-light conditions."
+where sku="AAA-015";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-017
+UPDATE product3 SET description=\
+"The Nikon D5100 offers a host of new photographic and video tools that deliver superior performance and exceptional image quality with surprising \
+versatility. With 16.2 megapixels, a swivel Vari-Angle LCD monitor, full HD movie capabilities, new EFFECTS Mode and new HDR setting, you hold the \
+power and performance to capture beautiful moments and the freedom to get creative."
+
+where sku="AAA-017";
+
+UPDATE product3 SET features=\
+"-3-inch, 921,000-dot Super-Density horizontal type Vari-Angle LCD Monitor\
+-In-camera Special Effects Mode, 1 Yr Camera / 5 Yrs Lens\
+-In-camera HDR (High Dynamic Range)\
+-Stunning Full 1080p HD Movies with Full Time Autofocus\
+-ISO Sensitivity: 100-6400 (Extended Mode: 100-25600)"
+
+
+
+
+where sku="AAA-017";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-018
+UPDATE product3 SET description=\
+"Dazzling image quality meets modern connectivity with built-in Wi-Fi® for instant photo sharing and remote camera control and built-in GPS with \
+mapping for geotagging and tracking your adventures. An innovative new 24.2-megapixel image sensor captures the purest, most lifelike photos and \
+1080p Full HD videos imaginable, and a brilliant 3.2-inch swiveling Vari-angle display delivers beautiful views from any angle—all in a compact, \
+sleek design."
+
+where sku="AAA-018";
+
+UPDATE product3 SET features=\
+"-24.2-megapixel DX-format CMOS image sensor\
+-Built-in Wi-Fi and GPS\
+-3.2-inch swiveling vari-angle LCD\
+-39-point high-density autofocus system\
+-Expeed 4 processor"
+
+where sku="AAA-018";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-019
+UPDATE product3 SET description=\
+"The Nikon D7100 Digital SLR Camera features a specially designed 24.1-megapixel DX-format image sensor, superior low-light performance, \
+ultra-precise autofocus and metering, advanced video recording features, built-in HDR, mobile connectivity and much, much more. Enjoy speed\
+precision and convenience at every step, from shooting up to 6 fps to instantly sharing your shots with the optional WU-1a Wireless Mobile Adapter.\
+Create dazzling Full HD 1080p videos and ultra-smooth slow-motion or time-lapse sequences."
+
+
+
+
+
+where sku="AAA-019";
+
+UPDATE product3 SET features=\
+"-24.1 megapixel DX-format image sensor
+-Shoot up to 6 frames per second for up to 100 continuous shots
+-Wireless sharing and control with WU-1a adapter (not included)
+-ISO range from 100-6400
+-1080p videos with full-time autofocus and built-in stereo mic"
+
+where sku="AAA-019";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-020
+UPDATE product3 SET description=\
+"The Nikon D800
+Every photo will astound. Every video will dazzle.
+Hold in your hands an HD-SLR able to capture images rivaled only by those produced with a medium-format camera: extremely low noise, \
+incredible dynamic range and the most faithful colors. Meet the Nikon D800, a 36.3 megapixel FX-format HD-SLR for professional photographers who\
+require end results of the highest quality, who demand superior performance, speed, handling and a fully integrated imaging system. For \
+cinematographers and multimedia professionals, 36.3 MP means true 1080p HD cinematic quality video. Inputs for stereo microphones and headphones\
+a peak audio meter display, DX crop mode to maximize NIKKOR lens selection and increase angle of view plus much more—the D800 is the essential tool \
+for today's still and video professional."
+
+where sku="AAA-020";
+
+UPDATE product3 SET features=\
+"-Extreme resolution 36.3-megapixel FX-format (35.9 x 24.0mm) CMOS sensor
+-Full 1080p HD broadcast quality video and minimized rolling shutter
+-View simultaneous Live View output on external monitors and record uncompressed video via HDMI terminal
+-Multi-Area Full HD D-Movie Video Recording Mode
+-Comprehensive high fidelity audio recording and playback control."
+
+
+
+
+where sku="AAA-020";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAA-021
+UPDATE product3 SET description=\
+"Feel the power of a 24.3 MP Nikon FX-format CMOS sensor in a compact, HD-SLR body. Create dazzling full-frame images rivaled only by Nikon's D800 \
+series D-SLR and 1080p Full HD videos. Nikon's superior 39-point AF system and Scene Recognition System means details will be clear and crisp—for\
+static or moving subjects. HD video quality rivals more expensive dedicated video cameras. Nikon FX-format quality has never been more attainable."
+where sku="AAA-021";
+
+UPDATE product3 SET features=\
+"-24.3 megapixel FX-format CMOS censor
+-Remarkable AF performance with compatibility up to f/8
+-Intelligent Scene Recognition System with 3D Color Matrix Metering II
+-Broadcast-quality full 1080p HD video
+-Wi-Fi compatibility with optional WU-1b wireless mobile adapter."
+
+where sku="AAA-021";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAA-002
+UPDATE product3 SET description=\
+"42x zoom power, professional-quality photos and videos, endless capabilities. For those seeking a comprehensive compact camera for zoom\
+image quality, versatility and technological innovation, look no further than the COOLPIX P520. Create pro-caliber photos and Full HD 1080p\
+videos from mind-boggling distances, even in extremely low-light conditions. Track your travels and explore points of interest with built-in\
+GPS. Take control of your vision with full P, S, A, M exposure modes. Add the optional WU-1a Wireless Mobile Adapter and share your shots in\
+an instant, or control the camera with your compatible smartphone or tablet. From its superb 42x zoom NIKKOR glass lens and 18.1-megapixel\
+low-light CMOS image sensor to its D-SLR-inspired design and 3.2-inch Vari-angle LCD, the COOLPIX P520 delivers the pinnacle of performance\
+and zoom."
+where sku="AAA-002";
+
+UPDATE product3 SET features=\
+"- Powerful 42x zoom that lets you shoot amazing close-ups\
+- Built-in GPS records the location of each shot you take\
+- Wi-Fi WU-1a accessory (not included) allows you to easily share your shots anytime anywhere\
+- 18.1 MP CMOS sensor for exceptional image quality and enhanced low-light performance\
+- Record videos in Full 1080p HD with stereo sound"
+where sku="AAA-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAB-002
+UPDATE product3 SET description=\
+"Create your best photos and HD movies yet with the stylish COOLPIX S4200. With 16 Megapixel CCD sensor, electronic Vibration Reduction (VR) image stabilization system, creative in-camera effects, 20 scene modes and more, you’ll achieve beautiful results in any setting. And controlling thecamera is a breeze thanks to its intuitive 3.0-in. touch screen. Style and performance, together in harmony."
+
+
+where sku="AAB-002";
+
+UPDATE product3 SET features=\
+"-16 megapixel CCD sensor 6x optical zoom lens (35mm equiv: 26-156mm).
+-e-VR (electronic vibration reduction) 3.0 inch 460k-dot LCD touchscreen
+-Smart portrait system 720p video recording.
+-ISO 80-3200 5cm minimum focusing distance."
+
+where sku="AAB-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAC-002
+UPDATE product3 SET description=\
+"The shots we want don't always happen right in front of us; they're often out on the sports field, up on the stage, across the room or just too far \
+away for many smartphone cameras—but not too far away for the stylish COOLPIX S3600. Its NIKKOR glass zoom lens makes it easy to catch those shots.\
+Zoom in with the power of 8x optical zoom and 16x Dynamic Fine Zoom for detailed close-ups from the sidelines. Add convenient features like Scene \
+Modes for difficult shooting situations, Smart Portrait System for flattering no-fuss portraits, Target Finding Autofocus for keeping focus where \
+you want it, fun Image Effects and so much more, and you've got a camera you can count on in nearly any situation."
+
+where sku="AAC-002";
+
+UPDATE product3 SET features=\
+"-8x optical zoom and 16x Dynamic Fine Zoom
+-18 Scene Modes for effortless photos
+-HD 720p videos with sound bring your memories to life
+-Target Finding AF for accurate, intelligent autofocus."
+
+where sku="AAC-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAD-002
+UPDATE product3 SET description=\
+"The cameras of the Comfort Long Zoom collection provide high-powered zoom and high image quality. Designed with ergonomics in mind, employing\
+features proven to be favorites, these cameras are great for capturing family vacations or everyday moments."
+
+where sku="AAD-002";
+
+UPDATE product3 SET features=\
+"-Powerful 30x zoom that lets you shoot amazing close-ups
+-16 MP CMOS sensor for exceptional image quality and enhanced low-light performance
+-Record videos in Full 1080p HD with stereo sound
+-Larger ergonomic design for easier handling and comfort."
+
+where sku="AAD-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAE-002
+UPDATE product3 SET description=\
+"It's simple for anyone to get just what he or she is looking for with this compact camera. A NIKKOR lens with 6x optical zoom covering a wide-angle\
+26 mm to telephoto 156 mm range. An operation system that is always simple and reliably familiar. With this much fun in hand, everyone can have a \
+great time shooting images to remember."
+
+where sku="AAE-002";
+
+UPDATE product3 SET features=\
+"-Slim, family-friendly 6x zoom compact with wide-angle 26 mm coverage
+-16.0 effective megapixels of pure imaging power
+-Scene auto selector simply activates the optimal mode
+-EXPEED C2 image-processing engine
+-HD 720p movie recording."
+
+where sku="AAE-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAF-002
+UPDATE product3 SET description=\
+"Everything you need to make the moment last.\
+Be ready for success at every photo op with the stylish, easy to use COOLPIX S3500. Whether you're shooting a close-up portrait of your favorite\
+pet or a wide group shot of your closest friends, the COOLPIX S3500's 7x optical zoom NIKKOR glass lens will capture beautiful, blur-free \
+20.1-megapixel photos and 720p HD videos. Lens-shift Vibration Reduction helps minimize the blur caused by camera shake, while Subject Tracking \
+locks on to moving subjects and keeps focus right where you want it. When you don't want to fuss with camera settings, Scene Auto Selector \
+automatically picks the best settings for your shot. Let your camera do the work while you enjoy living in the moment."
+
+where sku="AAF-002";
+
+UPDATE product3 SET features=\
+"-7x wide-angle NIKKOR glass lens
+-720p HD video recording
+-Vibration Reduction helps keep shots steady"
+
+where sku="AAF-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAG-002
+UPDATE product3 SET description=\
+"Big zoom, small package and ready to share in an instant.\
+Expect plenty of 'Likes' on the photos and videos you share with the COOLPIX S6500. Packed inside its ultra-slim, stylish design is a powerful \
+12x Zoom-NIKKOR glass lens that's great for everything from wide-angle landscapes to telephoto close-ups; and a 16-megapixel CMOS image sensor for\
+maximum photo and video quality in just about any light. When you're ready to share your creations, built-in Wi-Fi® helps you get them online faster \
+and easier than ever."
+
+where sku="AAG-002";
+
+UPDATE product3 SET features=\
+"-16.0 MP CMOS sensor
+-Built-in Wi-Fi for photo sharing
+-12x optical zoom with NIKKOR lens
+-Optical VR image stabilization minimizes camera shake
+-Up to 7 shots per second."
+where sku="AAG-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAH-002
+UPDATE product3 SET description=\
+"Catch those summer evening shots around the bonfire, or freeze the action of the winning goal. Fast, responsive and boasting an incredible 14x\
+optical Zoom-NIKKOR ED glass lens, the Nikon COOLPIX S8200 will help you capture images you may previously have missed. Its 16.1-MP CMOS sensor \
+crisply renders your view of the world—whether low light, far off fast action or sweeping panoramas. Capture sharp, clear photos and Full HD (1080p)\
+movies using Nikon's incredible optics. Spice up stills and movies with special effects, and view everything on a 3-inch, ultra-high resolution\
+(921,000 dot) display."
+
+where sku="AAH-002";
+
+UPDATE product3 SET features=\
+"-16.1 effective megapixel 1/2.3 CMOS sensor for fast capture and superior low light shooting
+-14x optical Zoom-NIKKOR ED glass lens, 25-350mm (35mm equivalent) captures action that's both near and far
+-3-inch ultra-high resolution (921,000-dot) LCD monitor with Clear Color display and anti-reflection coating
+-Full HD (1080p) movie recording with stereo sound and one touch record button, great movies made easy
+-Easy Panorama, Night and Backlight/HDR modes, shoot in new creative ways."
+
+where sku="AAH-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAI-002
+UPDATE product3 SET description=\
+"The Nikon Coolpix P7000 is a compact, high-performance digital camera offering superb image quality and precise imaging control. An ideal traveling\
+companion to your DSLR, the Coolpix P7000 will be found in gadget bags of advanced amateurs and pro-shooters alike. Powered by Nikon's leading-edge \
+technology, the P7000 is designed for no-limits shooting. In low-light or tricky light, for fast-moving subjects, dramatic landscapes and detailed \
+close-ups, here's a camera capable of keeping pace with your imagination to deliver your take on your world." 
+
+where sku="AAI-002";
+
+UPDATE product3 SET features=\
+"-10.1 megapixel resolution
+-7.1x Wide-Angle Nikkor ED Optical Zoom Glass Lens; 3-inch Ultra-High Resolution (921,000-dot) Clear Color Display
+-HD (720p) movie with stereo, mic input jack and HDMI output
+-Dial controls for key functions including ISO, white balance, bracketing, exposure compensation and more
+-Capture images and video to SD/SDHC memory cards (not included), battery charger is included."
+
+where sku="AAI-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAJ-002
+UPDATE product3 SET description=\
+"Trust your memories to the world leader in flash memory cards-and capture your life on reliable SanDisk SDTM and SDHCTM cards.Built for daily, \
+real-life use in all kinds of digital devices, these flash memory cards also serve as easy digital storage to take on the go. So pick up a few cards\
+at a time and start building a dependable, space- saving digital library."
+
+where sku="AAJ-002";
+
+UPDATE product3 SET features=\
+
+"-Cards include security feature for protection of copyrighted data
+-SD cards are fully compatible with all SD-compliant devices
+-Speed performance rating: Class 4 (based on SD 2.0 Specification)
+-Writeable label for easy identification and organization
+-Ships in Certified Frustration-Free Packaging
+-High quality and reliability backed by a 5-year limited warranty."
+
+where sku="AAJ-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAK-002
+UPDATE product3 SET description=\
+"Trust your memories to the world leader in flash memory cards-and capture your life on reliable SanDisk SDTM and SDHCTM cards.Built for daily\
+real-life use in all kinds of digital devices, these flash memory cards also serve as easy digital storage to take on the go. So pick up a few \
+cards at a time and start building a dependable, space- saving digital library."
+
+where sku="AAK-002";
+
+UPDATE product3 SET features=\
+"-Cards include security feature for protection of copyrighted data
+-SD cards are fully compatible with all SD-compliant devices
+-Speed performance rating: Class 4 (based on SD 2.0 Specification)
+-Writeable label for easy identification and organization
+-Ships in Certified Frustration-Free Packaging
+-High quality and reliability backed by a 5-year limited warranty."
+
+where sku="AAK-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAL-002
+UPDATE product3 SET description=\
+"ButterflyPhoto has Offered Top quality products for all digital cameras for over 15 years. Every product is guaranteed to work 100% perfectly and\
+is 100% Brand New in its original Package. Each item includes a Full Worldwide warranty and is 100% sanctioned for safe use. ButterflyPhoto is a \
+Leader In the Consumer Electronics Business, Our ratings throughout the internet are second to None."
+
+where sku="AAL-002";
+
+UPDATE product3 SET features=\
+"-Tripod Has Special Carrying Handle Professional Foam Grip
+-Self Leveling Rubber Legtip Built In Bubble Leveling
+-3-Way Pan Head 3-Section Leg Quick leverlock
+-Rubber Legtip Deluxe Soft Case Includes ButterflyPhoto Micro Fiber Cleaning Cloth - Safely Removes Fingerprints and Dust, Cleans Without Chemicals
+-The Ultiamte Professional 72 Tripod - Extends to 72."
+
+where sku="AAL-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAM-002
+UPDATE product3 SET description=\
+"The Ravelli APLT2 is a very light tripod but it still extends to a height of 49 inches. With a weight of just over 1 LB (1.15LBS) you will not be\
+weighed down, this tripod is constructed of aluminum legs and a hard plastic head. It has the ability to change the cameras orientation from \
+portrait to landscape. The legs have rubber feet for stability on different surfaces. The legs have 3 extendable segments for varying height. \
+This tripod also has a extendable gearless center post for easy movement and adjustment."
+
+where sku="AAM-002";
+
+UPDATE product3 SET features=\
+"-Height min./max. 16.5 in/50 in
+-Pan and tilt motion, with built-in
+-Landscape or portrait orientation
+-Lever leg locks
+-Carry bag included"
+
+where sku="AAM-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAN-002
+UPDATE product3 SET description=\
+"Nikon N80 35mm SLR Film Camera (Body Only)"
+
+
+
+where sku="AAN-002";
+
+UPDATE product3 SET features=\
+"It designed for excellent performance with flexibility to meet virtually all of your photographic needs.
+10-segment 3D, Center and Spot metering for auto and manual exposure modes
+Nikon advanced focusing in auto and manual modes
+Uses all Nikon F Lenses (AF Series for autofocus capabilities) - Lens is not included
+Comprehensive viewfinder information"
+
+where sku="AAN-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAO-002
+UPDATE product3 SET description=\
+"For the individual who likes to take total control, the FM10 lets you make the choices.In this kit, the FM10 body is fitted with Nikon's 35mm to 70mm lens.Full manual control.Selectable shutter speeds up to 1/2000th of 1 second, 'B' Setting.Depth of field Preview"
+
+where sku="AAO-002";
+
+UPDATE product3 SET features=\
+"-In this kit, the FM10 body is fitted with Nikon's 35mm to 70mm lens
+-Full manual control
+-Selectable shutter speeds up to 1/2000th of 1 second
+-Depth of field Preview; 'B' Setting."
+
+
+
+
+where sku="AAO-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAP-002
+UPDATE product3 SET description=\
+"You live to be “in the moment,” so anything that brings back the rush is worth it. The Nikon COOLPIX AW100 is water-proof, shock-proof and freeze-proof, so you can take it on all of your extreme adventures. It packs a 5x Zoom-NIKKOR ED glass lens and a 16.0-MP CMOS sensor to record low-light and fast-action photos and Full HD (1080p) movies. Life on the road deserves GPS + e-Compass, so the AW100's got these too. Add a 3-inch monitor, our new Action Control for easily adjusting settings when wearing gloves plus a range of in-camera special effects, and you've got a camera as rugged as you. Start saving those action-packed memories—every view and heartbeat."
+
+
+
+
+where sku="AAP-002";
+
+UPDATE product3 SET features=\
+"-Water-proof, Shock-proof, Freeze-proof: ruggedly built for reliable and comfortable outdoor operation. Water-proof to a depth of 33 feet;3 inch LCD display
+-16 effective megapixel CMOS sensor ideal for low light shooting and fast operation,Zoom: Optical: 5x, Digital: 4x
+-Full HD (1080p) movie with stereo sound and movie-record button that enables one-touch recording (HDMI mini connector equipped)
+-Aperture: f/3.9 to f/4.8,Lens Focal Length : 5.0-25.0mm (angle of view equivalent to that of 28-140mm lens in 35mm (135) format)
+-Points of Interest (locations, landmarks, etc.) and location information (latitude and longitude) can be added to your photos."
+
+
+
+where sku="AAP-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAQ-002
+UPDATE product3 SET description=\
+"The rush lasts a moment. The memory lasts a lifetime.
+If you spend more time hanging from belay lines than waiting in club lines, if a snowy forecast makes you grin ear to ear, if you measure your weekends by bumps and bruises, meet your next favorite piece of gear: the waterproof, freezeproof and shockproof COOLPIX AW110. Built as rugged as you, the COOLPIX AW110 captures your extreme moments as mind-blowing photos, Full HD 1080p videos and ultra-smooth slow motion sequences. With built-in Wi-Fi® for instant sharing, a full-featured GPS with mapping, Points of Interest and Electronic Compass plus all the imaging power of a Nikon, you can finally bring home the rush of going big."
+
+
+
+
+where sku="AAQ-002";
+
+UPDATE product3 SET features=\
+"-Waterproof, shockproof, and freezeproof to capture extreme moments
+-Share amazing photos in an instant with built-in Wi-Fi
+-Built-in GPS records the location of each shot you take
+-Record videos in Full 1080p HD with stereo sound."
+
+
+
+
+where sku="AAQ-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAR-002
+UPDATE product3 SET description=\
+"This high-power 4.3x telephoto zoom is a versatile and lightweight answer to bringing family action closer. Lightweight 4.3X Telephoto zoom lens for SLR cameras that set aperture from command dial on camera body. Ideal lens for candids, travel and sports photography. D-type design provides precise distance information for flash and ambient light exposure process. New G-design enables apertures to be selected from select Nikon AF SLR camera bodies."
+
+
+
+where sku="AAR-002";
+
+UPDATE product3 SET features=\
+"-Nikon 70-300mm f/4-5.6G AF Nikkor SLR Camera Lens
+-Accepts 62mm filters
+-Count on genuine Nikon optics for outstanding picture quality
+-Compact and lightweight, this 4.3x autofocus zoom lens is ideal for candid shots, portraits, travel and sports photography
+-This is a G designated lens, not ED series - Nikon Part #1928
+-Compact and lightweight, this 4.3x autofocus zoom lens is ideal for candid shots, portraits, travel and sports photography
+-Count on genuine Nikon optics for outstanding picture quality."
+
+
+where sku="AAR-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##AAS-002
+UPDATE product3 SET description=\
+"With a compact, lightweight design, the AF-S DX NIKKOR 35mm f/1.8G provides the high reproduction capability and picture quality for which Nikkor lenses are renowned at an affordable price. The ring type SWM offers quiet AF operation. Although all lens groups shift during focusing, the front element and filter mount do not rotate and the barrel length does not change, which is useful when using filter mounted SB-R200 Wireless Remote Speedlight units. 
+
+The AF-S DX Nikkor 35mm f/1.8G optical design allows a different look and feel to images taken with zoom lenses, and its dimensions are ideal for discrete snapshots and landscape shooting with a picture angle that approximates that of the human eye. With its rounded seven-blade diaphragm opening, out-of-focus elements appear more natural. When mounted on a DX-format SLR, the picture angle is the 35mm equivalent focal length of 50mm.
+
+The AF-S Nikkor 35mm f/1.8G has two focus modes, M/A (manual override autofocus) and M (manual focus). The M/A mode enables instant manual switching during AF operation. The lens also features a rubber seal to minimize moisture ingression around the mount and can focus down to 0.3 meters (0.98 ft)."
+
+
+
+where sku="AAS-002";
+
+UPDATE product3 SET features=\
+"-Engineered for Nikon DX-format digital SLRs - Optical formula optimized for use with Nikon DX-format digital SLRs.
+-Aspherical lens element minimizes coma and other types of lens aberrations, further improving image integrity
+-Nikon Super Integrated Coating (SIC) enhances light transmission efficiency and offers superior color consistency and reduced flare
+-The exclusive Nikon Silent Wave Motor (SWM) enables fast, accurate and quiet autofocus
+-Close focusing to one foot for creative perspectives and versatility."
+
+
+where sku="AAS-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAT-002
+UPDATE product3 SET description=\
+"Fast f/1.8, compact FX-format prime (fixed focal length) lens 
+Optimized for FX-format D-SLR cameras but equally at home on any Nikon DX-format D-SLR, this updated classic with a fast maximum aperture is ideal for everyday shooting, perfect in low lighting situations and great for producing images with beautiful background blur (bokeh). The AF-S 50mm f/1.8G includes Silent Wave Motor technology (SWM) for fast and precise autofocus, M/A Focus Mode Switch for seamless changes between manual and autofocus operation and an aspherical lens element for outstanding optical performance with high contrast."
+
+
+where sku="AAT-002";
+
+UPDATE product3 SET features=\
+"-Fast, upgraded f/1.8, compact FX-format prime lens
+-Newly developed optical system with Aspherical lens element
+-Exclusive Nikon Silent Wave Motor (SWM)
+-M/A Focus Mode Switch,Filter Thread 58 mm, Autofocus: Yes
+-Optimized for edge to edge sharpness on both FX and DX-format D-SLRs."
+
+
+
+where sku="AAT-002";
+
+

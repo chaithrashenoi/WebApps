@@ -1,0 +1,1285 @@
+use jadrn026; 
+
+
+insert into product3 values('','DDD-011','Panasonic','Digital camera','Lumix DMC-FZ200 12.1 MP','','','498.00','$589.00','D11.jpg');
+insert into product3 values('','DDD-012','Panasonic','Digital camera','Lumix DMC-FZ60 16.1 MP','','','484.35','$559.00','D12.jpg');
+insert into product3 values('','DDD-013','Panasonic','Digital camera','Lumix DMC-G1 12.1MP','','','439.99','$89.00','D13.jpg');
+insert into product3 values('','DDD-014','Panasonic','Digital camera','LUMIX DMC-LX7K 10.1 MP Digital Camera','','','348.00','$489.00','D14.jpg');
+
+insert into product3 values('','EEE-011','Olympus','Digital camera','SZ-12 14MP','','','89.50','$109.00','E11.jpg');
+insert into product3 values('','EEE-012','Olympus','Digital camera','VG-160 14MP','','','64.99','$100.00','E12.jpg');
+insert into product3 values('','EEE-013','Olympus','Digital camera','SP-810 UZ','','','169.95','$200.00','E13.jpg');
+insert into product3 values('','EEE-014','Olympus','Digital camera',' SP-820UZ iHS','','','239.00','$309.00','E14.jpg');
+
+insert into product3 values('','EEE-015','Olympus','Underwater','Stylus TG-2 iHS','','','379.99','$450.00','E15.jpg');
+insert into product3 values('','EEE-016','Olympus','Underwater','Stylus TG-830 iHS','','','274.50','$360.00','E16.jpg');
+insert into product3 values('','EEE-017','Olympus','Underwater','TG-820 12MP Shock/Water/Freeze-Proof','','','295.00','$380.00','E17.jpg');
+
+insert into product3 values('','GGG-001','Samsung','Digital camera','ST150F 16.2MP Smart WiFi Digital Camera','','','85.00','$129.00','G11.jpg');
+insert into product3 values('','GGG-011','Samsung','Digital camera','WB250F Smart Wi-Fi','','','116.00','$179.00','G12.jpg');
+insert into product3 values('','GGG-012','Samsung','Digital camera','NX1100 Smart Wi-Fi','','','369.00','$450.00','G13.jpg');
+
+
+
+
+##AAU-002
+UPDATE product3 SET description=\
+"Compact 5.5x DX-format telephoto zoom lens with High Refractive Index lens element. ED glass and VR II image stabilization is Ideal for capturing distant subjects at athletic events, family pictures, dramatic sunsets, travel and more." 
+where sku="AAU-002";
+
+UPDATE product3 SET features=\
+"-5.5x Telephoto Zoom lens,Filter Thread: 58 mm
+-Nikon VR II Image Stabilization; Tripod Detection Mode
+-HRI (High Refractive Index) Lens Element
+-2 Extra-low Dispersion (ED) Elements
+-Exclusive Nikon Silent Wave Motor (SWM)."
+where sku="AAU-002";
+
+--------------------------------------------------------------------------------------------------------------------------
+##AAV-002
+UPDATE product3 SET description=\
+"This versatile and compact 3.6x Zoom-NIKKOR lens brings the action to the photographer. Ideal for portraiture, family, sports, nature and wildlife.
+
+AF-S DX VR Zoom-NIKKOR 55-200mm f/4-5.6G IF-ED Lens Highlights:
+An ED (Extra-low Dispersion) glass element minimizes chromatic aberration, contributing to superior optical performance
+Focus mode switch enables quick switching between A (Autofocus) and M (Manual Focus)
+7-blade rounded diaphragm provides more natural out-of-focus highlights
+Vibration Reduction, engineered specifically for each VR NIKKOR lens, enables handheld shooting at up to 3 shutter speeds slower than would otherwise be possible, assuring dramatically sharper still images and video capture
+New compact rod-type Silent Wave Motor (SW) enables ultra-high speed auto focusing with exceptional accuracy and super-quiet operation
+The lens is constructed with 15 elements in 11 groups."
+
+
+
+where sku="AAV-002";
+
+UPDATE product3 SET features=\
+"55-200mm zoon Nikkor lens with f/4-5.6 maximum aperture for Nikon digital SLR cameras
+2 extra-low-dispersion (ED) glass elements for minimized chromatic aberration and superior optics
+Super-integrated coating minimizes ghosting and flare for more vivid images in dim lighting
+Silent Wave Motor produces quick and quiet high-speed autofocusing; weighs 9 ounces
+Measures 2.7 inches in diameter and 3.1 inches long; 5-year warranty."
+
+
+
+where sku="AAV-002";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##AAW-002
+UPDATE product3 SET description=\
+"This 5.8x zoom, designed exclusively for use with Nikon's DX-format, features Nikon's VR image stabilization and is perfect for portraits and action. The wide-ratio 5.8x zoomCompact, versatile and ideal for a broad range of shooting situations, ranging from interiors and landscapes to beautiful portraits--a perfect everyday zoom. Vibration Reduction is engineered specifically for each VR NIKKOR lens and enables handheld shooting at up to 3 shutter speeds slower than would otherwise be possible, assuring dramatically sharper images."
+
+
+where sku="AAW-002";
+
+UPDATE product3 SET features=\
+"It includes LC-67 67mm snap-on front lens cap , LF-1 rear lens cap , HB-32 Bayonet lens hood, CL-1018 Flexible lens pouch
+Vibration Reduction is engineered specifically for each VR NIKKOR lens and enables handheld shooting at up to 3 shutter speeds slower than normal.
+Aspherical lens element virtually eliminates coma and other types of lens aberration, further improving image integrity.
+Nikon Super Integrated Coating (SIC) enhances light transmission and offers superior color consistency and reduced flare.
+Close focusing to 1.48 feet - Creative close-up photography is possible throughout the entire zoom range."
+
+
+
+where sku="AAW-002";
+
+
+##BBB-001
+UPDATE product3 SET description=\
+"The Canon EOS Rebel 2000 is an affordable, lightweight, andfull-featured automatic 35mm SLR for both beginning and advancedamateur\
+photographers. It offers a host of special modes for specificshooting situations, including full auto, manual, night scene,portrait,\
+landscape, and more. It also has shutter-speed priority andaperture priority modes--although most users will inevitably leave thecamera in\
+full auto mode a majority of the time and the cameraperforms very well that way. Just remember that the empty rectanglesymbol on the mode dial\
+is for full auto."
+where sku="BBB-001";
+
+UPDATE product3 SET features=\
+"- Autofocus 35mm SLR with full manual options\
+- 28 to 80mm Zoom lens included\
+- Retractable built-in flash\
+- 7-Point autofocus system\
+- 35-Zone exposure sensor"
+where sku="BBB-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+##BBB-002
+UPDATE product3 SET description=\
+"Photo enthusiasts rejoice! The new flagship of the spectacular Rebel Line, the EOS Rebel T5i, is here to renew your artistic \
+side with amazing imaging features and full-featured functionality. Users will be impressed at how simple and intuitive \
+it is to create breathtaking photos with ease. The incredible image quality and performance starts with an 18.0 Megapixel CMOS\
+(APS-C) sensor and Canon's superb DIGIC 5 Image Processor. Combined with an extensive ISO range of 100Ð12800 (expandable \
+to 25600 in H mode), the EOS Rebel T5i boasts crisp, detailed images, even in low-light situations. A continuous shooting \
+speed of up to 5.0 fps allows for fast action capture. 9 cross-type AF focus points help ensure crisp focus throughout the frame, and the\
+Hybrid CMOS AF system enables speedy and accurate autofocus when shooting in Live View mode. In addition, the camera is compatible with\
+Canon STM lenses for smooth, quiet AF performance. And the performance doesn't stop with photos. EOS Full HD Movie mode \
+with Movie Servo AF makes shooting high quality movies easy, and the brilliant Vari-angle Touch Screen 3.0-inch Clear \
+View LCD monitor II makes composing fun. Seven Creative Filters, now viewable in real time, puts composition control \
+directly in your hands and is just one of the many features of the EOS Rebel T5i that is sure to renew your creative soul."
+where sku="BBB-002";
+
+UPDATE product3 SET features=\
+"- EOS Full HD Movie mode with Movie Servo AF for continuous focus tracking of moving subjects, manual exposure control \
+and multiple frame rates built-in stereo microphone, manual audio level adjustment and Video Snapshot\
+- Vari-angle touchscreen 3.0-inch Clear View LCD monitor II (approximately 1,040,000 dots) with smudge-resistant coating features multi-touch\
+operation and Touch AF\
+- 18.0 megapixel CMOS (APS-C) sensor, 14-bit A/D conversion, ISO 100-12800 (expandable to H: 25600) for shooting from\
+bright to dim light and high performance\
+- 9-point allcross-type AF system (including a high-precision dual-cross f/2.8 center point) for exceptional autofocus\
+performance when shooting with the viewfinder and Hybrid CMOS AF \
+- Includes EF-S18-135mm f/3.5-5.6 IS STM high magnification \
+standard zoom lens with Optical Image Stabilizer for up to four equivalent stops of shake correction."
+where sku="BBB-002";
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-004
+UPDATE product3 SET description=\
+
+"New Technology for Outstanding Images. 
+12.2 Megapixel CMOS (APS-C) sensor and DIGIC 4 Image Processor for high image quality and speed. 
+CanonÕs CMOS (Complementary Metal Oxide Semiconductor) sensor captures images with exceptional clarity and tonal range, and offers the most pixels in its class. It offers many of the same new technologies to maximize each pixelÕs light gathering efficiency that were first seen with the professional EOS-1D Mark III model. ItÕs an APS-C size sensor (22.2 x 14.8mm), and there's an effective 1.6x increase in the lens's marked focal length when attached."
+
+
+
+
+where sku="BBB-004";
+
+UPDATE product3 SET features=\
+"12.2 MP CMOS sensor and DIGIC 4 Image Processor for high image quality and speed.
+ISO 100 - 6400 for shooting from bright to dim light.
+Improved EOS HD Movie mode with expanded recording and with in-camera video editing options.
+High speed, reliable 9-point AF system utilizing a high precision, f/5.6 cross-type center point.
+Enhanced metering with a 63-zone, Dual-layer metering system for accurate metering between exposures."
+
+
+
+where sku="BBB-004";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##BBB-005
+UPDATE product3 SET description=\
+"As the world's smallest and lightest digital SLR, the new EOS Rebel SL1 is small in size but enormous in performance. With a newly-designed \
+Canon 18.0 Megapixel CMOS (APS-C) sensor and speedy Canon DIGIC 5 Image Processor, it delivers images of extraordinary quality Ð ideal for \
+those stepping up from a smartphone or compact camera. An impressive ISO range of 100Ð12800 (expandable to H: 25600) for stills and 100Ð6400\
+(expandable to H: 12800) for video plus up to 4.0 fps continuous shooting make this camera the go-to for any photo opportunity, even in dim \
+lighting or when capturing fast action subjects. And Hybrid CMOS AF II delivers accurate AF tracking during Live View shooting, helping ensure\
+your photos and movies are crisp and clear. The EOS Rebel SL1 makes amazing movies with Canon EOS Full HD Movie Mode with Movie Servo AF, \
+working in concert with Canon STM lenses for smooth and quiet continuous AF. In addition to its Optical Viewfinder, the EOS Rebel SL1 has a \
+bright, wide Touch Screen 3.0 inc Clear View LCD monitor II, perfect for viewing a number of special scene modes and Creative Filters available \
+in real-time display. Here is the DSLR you'll want to bring with you everyday and ignite your imagination."
+
+
+where sku="BBB-005";
+
+UPDATE product3 SET features=\
+"-Compact and lightweight DSLR featuring a newly-developed 18.0 Megapixel CMOS (APS-C) sensor, ISO 100-12800 (expandable to H: 25600) for\
+stills and ISO-6400 (expandable to H: 12800) for videos for shooting from bright to dim light, and high performance DIGIC 5 Image Processor \
+for exceptional image quality and speed.
+-9 point AF system (including a high-precision dual-cross f/2.8 center point) for exceptional autofocus performance when shooting with the\
+viewfinder; new Hybrid CMOS AF II, which combines the advantages of high-speed phase-detection AF and high-precision contrast AF, provides \
+a widened Hybrid CMOS AF focus area for increased autofocus speed and accuracy when shooting photos and movies in Live View.
+-High speed continuous shooting up to 4.0 fps allows you to capture all the action
+-EOS Full HD Movie mode with Movie Servo AF for continuous focus tracking of moving subjects, manual exposure control and multiple frame \
+rates (1080: 30p (29.97) / 24p (23.976) / 25p, 720: 60p (59.94) / 50p, 480: 30p (29.97) / 25p), built-in monaural microphone, manual audio \
+level adjustment, and Video Snapshot with editing for expanded movie shooting options.
+-Touch Screen Wide 3.0-inch Clear View LCD monitor II (approximately 1,040,000 dots) with smudge-resistant coating features multi-touch\
+operation with direct access to functions for setting changes and Touch AF for an easy, intuitive experience and clear viewing when outdoors;\
+an Optical Viewfinder with approx. 0.87x magnification makes subjects easier to see."
+
+
+where sku="BBB-005";
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-007
+UPDATE product3 SET description=\
+"With the new EOS 60D DSLR, Canon Canon EOS 60D on Amazon.comgives the photo enthusiast a powerful tool fostering creativity, with better image quality, \
+more advanced features and automatic and in-camera technologies for ease-of-use. It features an improved APS-C sized 18.0-megapixel CMOS sensor for \
+tremendous images, a new DIGIC 4 Image Processor for finer detail and excellent color reproduction, and improved ISO capabilities from 100-6400\
+(expandable to 12800) for uncompromised shooting even in the dimmest situations. The new Multi-control Dial enables users to conveniently operate menus\
+and enter settings with a simple touch."
+
+
+
+
+where sku="BBB-007";
+
+UPDATE product3 SET features=\
+"-18.0 Megapixel CMOS sensor and DIGIC 4 Imaging Processor for high image quality and speed.
+-ISO 100 - 6400 (expandable to 12800) for shooting from bright to dim light.
+-Improved EOS HD Video mode with manual exposure control, expanded recording, Movie Crop recording in 640 x 480, sound recording level\
+adjustment and an external microphone IN terminal for access to improved sound quality.
+-Vari-angle 3.0-inch Clear View LCD monitor for shooting at low angles and 1,040,000-dot VGA with reflection reduction using multi coating \
+and high-transparency materials for bright and clear viewing.
+-5.3 fps continuous shooting up to approx. 58 Large/JPEGs and 16 RAW."
+
+
+where sku="BBB-007";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-008
+UPDATE product3 SET description=\
+"Changing the way users capture still images and video with a DSLR camera, Canon proudly introduces the EOS 70D Ð a trailblazing powerhouse featuring a revolutionary autofocus technology that unlocks the potential of Live View: Dual Pixel CMOS AF. This game-changing technology allows the EOS 70D to capture video in Live View with smooth and precise autofocus similar to that of a camcorder, complete with the superb image quality that is a hallmark of EOS cameras. Additionally, Dual Pixel CMOS AF provides fast and accurate autofocus during Live View still image capture, enabling you to fully benefit from the freedom of angle allowed by the Vari-angle Touch Screen 3.0-inch Clear View LCD monitor II. Compositional options are now nearly limitless with the two real-world choices of Live View and viewfinder shooting. To further empower the photographer, Canon engineers spent months ensuring that the cutting-edge Dual Pixel CMOS AF on the EOS 70D is compatible with 103× Canon EF lenses, greatly expanding creative possibilities. Built-in wireless technology and the EOS Remote app* further enhance shooting versatility, as well as enable easy sharing. Brilliant image quality is provided by the EOS 70DÕs 20.2 Megapixel CMOS (APS-C) sensor, a first for an EOS camera with an APS-C sized sensor. A powerful DIGIC 5+ Image Processor supports continuous shooting up to 7.0 frames per second, as well as an extended ISO range of 100Ð12800 (H: 25600) that allows shooting in a wide variety of lighting conditions. Stunning photos can be accomplished using the remarkable 19-point all cross-type AF system with a high precision dual cross f/2.8 center point, and advanced display options available on the Intelligent Viewfinder supply exceptional control. In-camera imaging features like HDR, HDR Backlight Control, Multiple Exposure, Handheld Night Scene, and Creative Filters available in real time help turn even simple images into spectacular photos. Elevating the possibilities of creative expression to extraordinary new heights, the powerful EOS 70D with Dual Pixel CMOS AF places the ability to capture both amazing stills and video right in your hands."
+
+
+where sku="BBB-008";
+
+UPDATE product3 SET features=\
+"-Canon's innovative Dual Pixel CMOS AF enables you to shoot video like a camcorder with smooth, fast, and accurate autofocus; lets you enjoy \
+instant and precise autofocus even when shooting stills from a variety of angles with the freedom provided by the Vari-angle LCD. 19-point all\
+cross-type AF system (including a high-precision f/2.8 dual cross-type AF center point) with a wide area arrayfor exceptional autofocus \
+performance and greater compositional freedom when shooting with the viewfinder. Intelligent Viewfinder with superimposed LCD display provides\
+approximately 98% field of view, and Multi-Aspect ratio in Live View broadens your choices in composition.
+
+-20.2 Megapixel CMOS (APS-C) sensor, 14-bit A/D conversion, ISO 100-12800 (expandable to H: 25600) for shooting from bright to dim light and\
+high performance DIGIC 5+ Image Processor for exceptional image quality and processing speed.
+
+-EOS Full HD Movie mode with Movie Servo AF for improved continuous focus tracking of moving subjects, manual exposure control and multiple \
+frame rates (1080: 30p (29.97) / 24p (23.976) / 25p, 720: 60p (59.94) / 50p, 480: 30p (29.97) / 25p), built-in stereo microphone, manual audio\
+level adjustment with attenuator function to reduce audio clipping, and Video Snapshot with editing for expanded movie shooting options.
+
+-Vari-angle Touch Screen 3.0-inch Clear View LCD monitor II (approximately 1,040,000 dots) with smudge-resistant coating features multi-touch\
+operation and Touch AF for an easy and intuitive experience, flexible positioning, and clear viewing even when outdoors in sunlight.
+
+-Built-in wireless technology allows you to wirelessly transfer your images to social networking sites through CANON iMAGE GATEWAY, share your\
+images with wireless-enabled Canon cameras, or upload virtually anywhere on your iOS¨ or Android(TM) smartphone* with the free download of the\
+EOS Remote app."
+
+
+where sku="BBB-008";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-009
+UPDATE product3 SET description=\
+"For an uncompromising mix of ease of use, affordability and outstanding features, look no further than the Canon Digital Rebel XT. Featuring\
+an 8.0 Megapixel CMOS sensor, Canon's DIGIC II Image Processor, and compatibility with over 50 EF Lenses, this digital SLR offers outstanding \
+performance for both the serious photographer and the weekend photographer who just wants to take great pictures."
+
+
+where sku="BBB-009";
+
+UPDATE product3 SET features=\
+"8.0-megapixel CMOS sensor captures enough detail for photo-quality 16 x 22-inch prints
+Includes Canon's EF-S 18-55mm, f3.5-5.6 zoom lens
+DIGIC II Image Processor provides fast, accurate image processing; captures images at a rate of up to 3 frames per second
+Fast start-up time--.2 seconds
+Powered by rechargeable Lithium-ion battery (included, with charger)
+Powered by rechargeable Lithium-ion battery (included, with charger)
+Fast start-up time is 2 seconds."
+
+
+where sku="BBB-009";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-010
+UPDATE product3 SET description=\
+"Tell your story with style and share it with the world with the beautiful and connected PowerShot ELPH 130 IS. The PowerShot ELPH 130 IS \
+keeps you connected with built-in Wi-Fi¨ so it's easier than ever to share your images with friends, family and the world. An enhanced feature\
+allows you to post directly from your camera to social networking sites, or upload to CANON iMAGE GATEWAY# for more sharing possibilities. An \
+8x Optical Zoom with 28mm Wide-Angle lens delivers stunning images in a variety of shooting situations. The 16.0 Megapixel sensor and DIGIC 4 \
+Image Processor offer exceptional performance, reducing noise and enabling sensitivity up to ISO 1600 for amazing performance in low-light. If\
+a still photo doesn't do justice to the action, shoot 720p HD video using the dedicated movie button. Smart AUTO makes capturing spectacular \
+images easy with the camera analyzing your subject and applying one of 32 preset modes for the optimal settings. The PowerShot ELPH 130 IS \
+also utilizes the new ECO Mode, which dynamically manages power consumption, yielding more shots per charge and making you sure you stay \
+connected for longer. If the party lasts all night, the PowerShot ELPH 130 IS will be prepared to capture it all."
+
+
+
+
+where sku="BBB-010";
+
+UPDATE product3 SET features=\
+"Built in Wi-Fi for wireless transfer of images to social networking sites
+8X Optical Zoom with 28mm Wide-Angle lens
+16.0 MP sensor and DIGIC 4 Image Processor and 720p HD video recording
+Smart AUTO with 32 pedefined photo capture settings
+ECO mode for economy power consumption"
+
+
+
+where sku="BBB-010";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-011
+UPDATE product3 SET description=\
+"Compact and comfortable to hold, the PowerShot SX510 HS camera creates images hard to match with a smartphone, with wireless sharing from \
+virtually anywhere. Newly expanded built-in Wi-Fi¨ offers quick and easy setup, and lets you post to Facebook¨, Twitter¨, YouTubeª and Flickr,\
+send to email, plus share with your tablet, smartphone, networked PC and wireless PictBridge certified printer. With the ultra-powerful 30x \
+Optical Zoom, you can capture an athlete's facial expressions from up in the bleachers, achieving crisp clarity with Canon's Optical Image\
+Stabilizer. The 24mm Wide-Angle lens captures family groups and landscapes with ease. Experience low-light shooting like never before with the\
+Canon HS SYSTEM: a 12.1 Megapixel High-Sensitivity CMOS Sensor and DIGIC 4 Image Processor. And preserve memories you'll want to relive in \
+spectacular 1080p Full HD Video. Smart AUTO senses and chooses the perfect camera settings for 32 pre-defined scenes, making every shot (and\
+video) a winner. Shooting is fun and spontaneous with High Speed AF, and Zoom Framing Assist makes it easy to keep subjects in sight at the \
+long end of the zoom. The camera is equipped with Intelligent IS that diminishes blur caused by camera shake, and a big, bright 3.0-inch LCD \
+screen makes it easy to shoot and review your stills and video."
+
+
+where sku="BBB-011";
+
+UPDATE product3 SET features=\
+"-Capture beautiful 1080p full HD video in stereo sound with a dedicated movie button, zoom while shooting and play back videos on an HDTV via\
+the HDMI output
+-Large 3-inch color LCD with a screen resolution of 461,000 dots enables easy viewing from a wide angle
+-12.1 megapixel high-sensitivity 1/2.3-inch CMOS sensor combined with the Canon DIGIC 4 image processor
+-Powerful 30x optical zoom and 24mm wide-angle lens with Optical Image Stabilizer
+-Smart Auto intelligently selects the proper settings based on 32 predefined shooting situations."
+
+
+where sku="BBB-011";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-012
+UPDATE product3 SET description=\
+"The PowerShot A2500 makes highly advanced imaging technology fun and easy to use, so you'll capture beautiful stills and video. The camera's \
+16.0 Megapixel sensor and DIGIC 4 Image Processor capture a wealth of detail and natural color, so even your enlarged images have impressive\
+resolution. With the 5x Optical Zoom with 28mm Wide-Angle lens, everything from close-up snaps to breathtaking landscapes is within your \
+reach. Smart AUTO recognizes 32 shooting situations and automatically chooses the proper camera settings, and Digital IS keeps even dark \
+scenes and fast-moving subjects sharp and steady. Preserving memories in rich, lifelike 720p HD video is as easy as pressing the dedicated\
+movie button, and Scene Modes like Fisheye Effect, Toy Camera Effect and Monochrome give you new ways to shoot more creatively. Plus, you can\
+shoot longer with new ECO Mode, which reduces power consumption. A Help Button makes the PowerShot A2500 perfect even for beginners, with \
+one-touch access to helpful instructions and advice."
+
+
+where sku="BBB-012";
+
+UPDATE product3 SET features=\
+"ECO Mode to reduce power consumption..
+Capture impressive 720p HD video in stereo sound with a dedicated movie button..
+16 megapixel, 1/2.3-inch CCD sensor and Canon DIGIC 4 image processor deliver enhanced image quality..
+5x optical zoom and 28mm wide-angle lens with Digital Image Stabilizer..
+Smart Auto intelligently selects the proper settings based on 32 predefined shooting situations."
+
+
+where sku="BBB-012";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-013
+UPDATE product3 SET description=\
+"The PowerShot A1400 is a compact, easy-to-use camera that retains the familiar feel of a classic point-and-shoot. Its large grip is easy to \
+grasp and comfortable to hold, while the Optical Viewfinder is ideal for capturing photos in bright sunlight. A 16.0 Megapixel sensor and the\
+DIGIC 4 Image Processor deliver stunning images with amazing detail. The 5x Optical Zoom with 28mm Wide-Angle lens brings you in close for\
+grand shots, and Smart AUTO makes shooting beautiful images effortless, analyzing the scene and choosing the optimal settings from 32 \
+predefined shooting situations. When the fun is on the move, capture it all in 720p HD Video using the dedicated movie button. The PowerShot \
+A1400 runs on two convenient AA-alkaline batteries, readily available when and where you need it, and the new ECO Mode conserves power so you\
+will still be ready to take photos long after the party is over."
+where sku="BBB-013";
+
+UPDATE product3 SET features=\
+"2.7-inch TFT color LCD with wide-viewing angle monitor
+16.0 megapixel 1/2.3-inch CCD sensor
+DIGIC 4 image processor for exceptional performance
+5x optical zoom with 28mm wide-angle lens delivers stunning images
+Shoot brilliant 720p HD video with a dedicated movie button"
+
+
+
+where sku="BBB-013";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-014
+UPDATE product3 SET description=\
+"Capture It All
+The fact that the PowerShot SX260 HS digital camera is an ultra-slim camera with a powerful 20x Optical Zoom, Optical Image StabilizationCanon\
+PowerShot SX206 HS at Amazon.com and 25mm Wide-Angle lens is only the beginning of its attractions. You'll see detail you never thought \
+possible through the huge zoom and wide-angle lens, while the camera's 12.1 Megapixel High-Sensitivity CMOS Sensor and DIGIC 5 Image Processor\
+deliver the rich, clear low-light performance that is the hallmark of Canon's HS SYSTEM. 1080p Full HD video in stereo is more beautiful than \
+ever, with new high-resolution, high-speed processing. Sophisticated advancements include improved Smart AUTO that optimizes settings for 58 \
+predefined shooting situations, Face ID that prioritizes pre-registered faces, and GPS for tracking and recording your shooting locations."
+
+
+
+where sku="BBB-014";
+
+UPDATE product3 SET features=\
+"12.1 effective megapixel, 1/2.3-inch high-sensitivity CMOS sensor
+3-inch TFT color LCD with wide viewing angle
+25mm wide-angle lens with optical image stabilizer
+20x optical zoom, 4x digital zoom and 80x combined zoom
+Full 1080p HD video with stereo sound."
+
+
+where sku="BBB-014";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-015
+UPDATE product3 SET description=\
+"An Ultra-Slim High Performer
+
+In the twelve years since the original ELPH was instantly and universally proclaimed an icon of style, successive ELPH cameras have remained\
+at the forefront of design even while boasting the very latest in digital technology. Canon PowerShot Elph 520 HS at Amazon.com Now, opening \
+a new era of ELPH design, the PowerShot ELPH 520 HS digital camera is both homage to the original ELPH and astonishing synthesis of CanonÕs \
+leadership in technical advancements. A mere 0.76 inches thick, it is the worldÕs thinnest 12x zoom camera. CanonÕs pursuit of perfection has\
+driven the development of new miniaturization including a new lens and new 10.1 Megapixel CMOS sensor that, powered by CanonÕs DIGIC 5 Image\
+Processor, create images as breathtakingly beautiful as the camera itself. ItÕs also packed with the latest Canon technologies including \
+Smart AUTO with new Face ID and Full HD Video."
+
+
+
+
+where sku="BBB-015";
+
+UPDATE product3 SET features=\
+"3-inch LCD display
+World's thinnest camera with a 12x Optical Zoom 28mm Wide-Angle lens with Optical Image Stabilizer
+Canon's HS SYSTEM with a 10.1 MP CMOS Sensor with DIGIC 5 Image Processor (up to 3200 ISO)
+Smart AUTO with 58 predefined shooting scenarios and the new Face ID function
+Full 1080p HD Video in Stereo Sound with a dedicated Movie Button and HDMI Output for HDTV viewing
+10.1 Megapixel Cmos
+World's thinnest camera with a 12x Optical Zoom 28mm Wide-Angle lens with Optical Image Stabilizer."
+
+where sku="BBB-015";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-016
+UPDATE product3 SET description=\
+"Imagine getting right down on the field to capture sports action, zeroing in on your child's expression on a crowded stage, and recording \
+elusive wildlife shots. All this and more is possible with the PowerShot SX50 HS offering the world's first 50x Optical Zoom lens* in a \
+compact digital camera, which goes all the way from a wide-angle 24mm to 1200mm (35mm equivalent) to capture any shot you choose. The\
+PowerShot SX50 HS doesn't just get you up close to the action, it delivers spectacular image quality to every shot. The Canon HS SYSTEM, a \
+combination of a 12.1 Megapixel High-Sensitivity CMOS sensor and the DIGIC 5 Image Processor, achieves beautiful images up to ISO 6400. \
+Record your memorable moments in incredibly lifelike 1080p Full HD video with stereo sound and High Speed AF ensures you'll capture all the \
+action with faster focusing speed and reduced shooting lag time. The PowerShot SX50 HS also features the additional benefit of Zoom Framing \
+Assist Seek and Lock functions, for easy tracking of and keeping the subject centered in the frame until you capture the image. With powerful \
+technologies that add convenience and advanced capabilities, PowerShot SX50 HS can help you capture more of life every day."
+
+
+where sku="BBB-016";
+
+UPDATE product3 SET features=\
+"Bright 2.8-inch Vari-angle LCD with 461,000 dots plus electronic viewfinder
+12.1 megapixel high-sensitivity CMOS sensor
+DIGIC 5 image processor
+50x optical zoom (4.3-215.0 mm) and 24mm wide-angle lens with Optical Image Stabilizer
+Capture stunning 1080p Full HD video in stereo sound with a dedicated movie button."
+
+
+where sku="BBB-016";
+
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-017
+UPDATE product3 SET description=\
+"Turn Memories Into Memorable Images PowerShot SX160 IS
+You'll want to carry this compact, versatile camera everywhere, because it gives every shooting opportunity the potential to become a\
+beautiful image. The spectacular 16x Optical Zoom with 28mm Wide-Angle Lens and Optical Image Stabilizer captures clear, vivid images whether\
+your subject is up close or far away. And with the 16.0 Megapixel sensor and Canon DIGIC 4 Image Processor, every detail is precisely rendered\
+for truly impressive image quality."
+where sku="BBB-017";
+
+UPDATE product3 SET features=\
+"3-inch TFT color LCD with wide viewing angle
+16 effective megapixel, 1/2.3-inch CCD sensor
+28mm wide-angle lens with powerful 16x optical zoom and optical image stabilizer
+720p HD video with dedicated movie button
+DIGIC 4 image processor, Uses 2 AA batteries."
+
+
+where sku="BBB-017";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-018
+UPDATE product3 SET description=\
+"Super Smart, Elegantly Thin
+Superb image quality, modern convenience and plenty of fun pack the elegantly designed ELPH 320 HS. Built-in Wi-Fi lets you share images \
+andCanon PowerShot ELPH 320 HS at Amazon.com beautiful 1080p Full HD videos anywhere, while the 3.2-inch wide PureColor System LCD responds\
+to your touch for an interactive shooting experience. The 16.1 Megapixel High-Sensitivity CMOS Sensor and DIGIC 5 Image Processor create \
+Canon's HS SYSTEM, letting you capture exceptional images even in low light. See how expressive your simple shots become with the 24mm \
+Wide-Angle lens with 5x Optical Zoom. Great image quality is easy with improved Smart AUTO that optimizes camera settings for 58 predefined \
+shooting situations, and Intelligent IS that ensures clear, stable images under any shooting conditions."
+
+
+
+
+where sku="BBB-018";
+
+UPDATE product3 SET features=\
+"16.1 effective megapixel, 1/2.3-inch high-sensitivity CMOS sensor
+3.2-inch TFT touch panel PureColor LCD with wide viewing angle
+DIGIC 5 Image Processor
+Built-in Wi-Fi allows wireless sharing of images and video
+24mm wide-angle lens (5x optical zoom, 4x digital zoom and 20x combined zoom) with optical image stabilizer
+Built-in Wi-Fi for wireless file sharing through Canon iMAGE GATEWAY on Facebook, Twitter, YouTube or other devices.
+Ultra-slim design, 5x Optical Zoom, 24mm Wide-Angle lens."
+
+
+where sku="BBB-018";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-019
+UPDATE product3 SET description=\
+"Super Zoom, Super Compact
+PowerShot SX500 IS
+The PowerShot SX500 IS gives you all the power of super zoom in a camera that's sized to go everywhere! The extremely powerful 30x Optical\
+Zoom with 24mm Wide-Angle Lens (35mm equivalent: 24Ð720mm) gives you true shooting versatility, while the Optical Image Stabilizer ensures\
+crisp, brilliant images at any zoom length. Image quality is spectacular thanks to the 16.0 Megapixel sensor and Canon DIGIC 4 Image \
+Processor, and you can capture stunningly realistic 720p HD video in stereo sound with a simple press of the movie button. An enhanced Zoom \
+Framing Assist button helps you track and capture subjects for sharp super telephoto photography, and new High Speed AF dramatically reduces\
+lag time so you'll never miss a shot. Just hold the PowerShot SX500 IS in your hand to experience what makes the new design so special. The\
+camera's slim, compact body is proportioned in perfect relation to the giant zoom, while rounded corners with angled grips are a natural fit \
+for the palm of your hand. Zoom right onto the field to capture sports action, achieve those wide-angle travel shots, preserve memories of \
+special events as beautiful HD video Ñ it's all possible with the PowerShot SX500 IS!"
+
+
+
+where sku="BBB-019";
+
+UPDATE product3 SET features=\
+"16 effective megapixel, 1/2.3-inch CCD sensor
+3-inch TFT color LCD with wide viewing angle
+DIGIC 4 image processor
+720p HD video in stereo sound with a dedicated movie button
+24mm wide-angle lens with powerful 30x optical zoom and optical image stabilizer
+30x Optical Zoom and 24mm Wide-Angle lens with Optical Image Stabilizer
+DIGIC 4 Image Processor."
+
+
+where sku="BBB-019";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-020
+UPDATE product3 SET description=\
+"Surpass Every Expectations
+For twelve years ELPH cameras have been coveted icons of design and innovation. Informed by that legacy yet stepping solidlyCanon PowerShot\
+ELPH 530 HS at Amazon.com into the future comes the PowerShot ELPH 530 HS. Beautifully sleek, this state-of-the-art camera is ready for the\
+way you live now. Built-in Wi-Fiå¨ lets you share images and beautiful 1080p Full HD videos virtually anywhere, while the 3.2-inch wide touch \
+panel PureColor System LCD makes operation easy and interactive. So slim, it's hard to believe it packs a 28mm Wide-Angle lens with 12x\
+Optical Zoom to capture just the image you want. Image quality is superb, with a 10.1 Megapixel High-Sensitivity CMOS Sensor and DIGIC 5\
+Image Processor for the clear low-light imaging of Canon's HS SYSTEM. It also comes equipped with the latest technological advancements like \
+Smart AUTO with Face ID to ensure that every shot you capture is amazing."
+
+
+
+where sku="BBB-020";
+
+UPDATE product3 SET features=\
+"Built-in Wi-Fi for wireless file sharing through Canon iMAGE GATEWAY on Facebook, Twitter, YouTube or other devices.
+Canon HS SYSTEM with a 10.1 MP High-Sensitivity CMOS sensor and DIGIC 5 Image Processor
+Slim design with 28mm Wide-Angle lens, 12x Optical Zoom and Optical Image Stabilization
+1080p Full HD video recording with a dedicated movie button
+Improved Smart AUTO with 58 predefined shoting situations and new FACE ID
+3.2-inch TFT LCD display
+Canon HS SYSTEM with a 10.1 MP High-Sensitivity CMOS sensor and DIGIC 5 Image Processor."
+
+
+
+where sku="BBB-020";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-021
+UPDATE product3 SET description=\
+"Need a camera that can keep up with your adventurous lifestyle? The tough and sporty PowerShot D30 is the ideal choice for intrepid types who \
+often find themselves outdoors, underwater or in extreme situations. Currently the camera with the world‰Ûªs deepest* waterproof performance, \
+the PowerShot D30 dives to a full 82 feet for excellent scuba and snorkeling flexibility. Bikers, hikers, skiers and climbers can also \
+confidently pack the PowerShot D30 to document the day‰Ûªs action: the camera is shockproof to 6.5 feet, and temperature resistant all the way\
+from 14å¡ to 104å¡F**. The camera‰Ûªs built-in GPS*** tracker records the location and time of all the images and videos you capture, and \
+the new Sunlight LCD mode makes it easy to see the monitor even on bright, sunny days. Whether you‰Ûªre underwater or on dry land, images \
+are beautifully clear, steady and loaded with detail and natural color thanks to the Canon HS SYSTEM and Intelligent IS. When you‰Ûªre too \
+busy to choose camera settings, Smart AUTO does it for you by automatically recognizing 32 predefined shooting situations, capturing the best \
+quality with every shot."
+
+
+where sku="BBB-021";
+
+UPDATE product3 SET features=\
+"-World's deepest* waterproof camera down to 82 ft. below sea level. * As of January 20, 2014. For compact-type waterproof digital cameras.
+-Shockproof to 6.5 feet, and temperature-resistant from 14 degrees to 104 degrees Fahrenheit. Based on Canon Standard.
+-Capture stunning 1080p Full HD video with a dedicated movie button.
+-12.1 Megapixel High-Sensitivity CMOS sensor combined with the Canon DIGIC 4 Image Processor creates the Canon HS SYSTEM, which helps provide\
+-excellent low-light performance.
+-Sunlight LCD mode helps reduce glare so it's easy to shoot or share photos outdoors."
+
+
+
+where sku="BBB-021";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-022
+UPDATE product3 SET description=\
+"Outdoorsy, adventurous types need to look no further for a camera that can handle it all. The PowerShot D20 digital camera is waterproof to \
+33 Canon PowerShot D20 at Amazon.comfeet, temperature-resistant from 14¡F to 104¡F, shockproof up to 5.0 feet, and equipped with a GPS tracker.\
+Slim and sturdy with a highly visible color layout, its buttons are operable even with gloved hands. Spectacular image quality is ensured with \
+the 12.1 Megapixel High-Sensitivity CMOS sensor and DIGIC 4 Image Processor for excellent low-light performance, and a 5x Optical Zoom with \
+28mm Wide-Angle Lens that brings excitement to your imaging. A single touch and you'll be shooting incredibly vivid 1080p Full HD Video with \
+full zooming capability. Lots of optional accessories take you deeper underwater and more."
+
+
+where sku="BBB-022";
+
+UPDATE product3 SET features=\
+"-Waterproof to 33 feet, temperature resistant from 14-104 degrees Fahrenheit and shockproof up to 5 feet
+-12.1 effective megapixel, 1/2.3-inch high-sensitivity CMOS sensor
+-3-inch TFT PureColor system LCD
+-Full 1080p HD video with dedicated movie button
+-28mm wide-angle lens (5x optical zoom, 4x digital zoom and 20x combined zoom) with optical image stabilizer
+-Waterproof to 33 feet, temperature from 14-104 degrees fahrenheit
+-12.1 MP Canon HS SYSTEM with a High-Sensitivity CMOS sensor, DIGIC 4 Image Processor."
+
+
+
+where sku="BBB-022";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-023
+UPDATE product3 SET description=\
+"The EOS-M Mirrorless Digital Camera with EF-M 18-55mm f/3.5-5.6 IS STM Lens from Canon combines Canon's first mirrorless digital camera with\
+an all-purpose wide-angle zoom lens suitable for both photo and video capture. An 18.0 MP CMOS sensor and Canon's DIGIC 5 Image Processor \
+ensure high performance and exceptional image quality and ultra-fast focusing is delivered via the Hybrid CMOS AF system. ISO sensitivity \
+ranges from 100-12800 and expands to 25600 for sharp details when shooting at high zoom and in low light."
+
+
+where sku="BBB-023";
+
+UPDATE product3 SET features=\
+"-18.0 MP CMOS (APS-C) Sensor, DIGIC 5 Image Processor, ISO 100-12800; expandable to 25600 (H)
+-Full HD 1080p Movie with Focus Tracking, Scene Intelligent Auto
+-3.0 inch Touch Screen LCD with 1040K-dots, Touch AF and Multi-touch Operation
+-Hybrid CMOS Auto-focus for Photo & Video, DIGIC 5 Image Processor
+-Includes EF-M 18-55mm f/3.5-5.6 Lens, Compatible with Canon EF and EF-S Lenses."
+
+
+
+where sku="BBB-023";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##BBB-024
+UPDATE product3 SET description=\
+"18.0 Megapixel CMOS (APS-C) sensor, DIGIC 5 Image Processor, ISO 100-12800; expandable to 25600 (H) Hybrid CMOS AF and Multi Shot Noise \
+Reduction EOS Full HD Movie mode with Movie Servo AF for continuous focus tracking of moving subjects Compatible with Canon EF and EF-S lenses\
+(Optional EF Lens Adapter is required) Canon Speedlite 90EX Flash"
+
+
+where sku="BBB-024";
+
+UPDATE product3 SET features=\
+"-18.0 Megapixel CMOS (APS-C) sensor, DIGIC 5 Image Processor, ISO 100-12800; expandable to 25600 (H)
+-Hybrid CMOS AF and Multi Shot Noise Reduction
+-EOS Full HD Movie mode with Movie Servo AF for continuous focus tracking of moving subjects
+-Compatible with Canon EF and EF-S lenses (Optional EF Lens Adapter is required)
+-Canon Speedlite 90EX Flash"
+
+
+
+where sku="BBB-024";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-011
+UPDATE product3 SET description=\
+"Image stabilization reduces blur by compensating for camera shake. SteadyShot INSIDEª image stabilization is built into the camera body \
+itself.You'll reduce blur with every A-mount lens because it provides compensation equivalent to approximately 2 to 4.5 additional steps in \
+shutterspeed, allowing for more hand held opportunities in low light or longer focal lengths."
+
+
+where sku="CCC-011";
+
+UPDATE product3 SET features=\
+"-20.1 MP Exmor HD APS sensor with 5 FPS shooting
+-Translucent Mirror Technology accelerates AF performance
+-1080/60i/24p Full HD or 1080/30p MP4 movies w/ Quick AF
+-Lock-on AF for even easier focusing of moving subjects
+-SVGA OLED True-Finder optimizes eye-level framing."
+
+
+
+where sku="CCC-011";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-012
+UPDATE product3 SET description=\
+"Best of both worlds, 24.3 megapixel and up to 10 fps. Get action photos, HD Movies and Live View shots that other cameras miss, thanks to \
+Sony's exclusive Translucent Mirror Technology. Enjoy smooth and creative HD video at full 1920 x 1080 resolution -at either 60p or 24p frame \
+rate - plus the world's first OLED electronic viewfinder."
+
+
+where sku="CCC-012";
+
+UPDATE product3 SET features=\
+"-2nd Generation Translucent Mirror Design
+-24.3 MP; best-in-class resolution
+-World's first OLED viewfinder."
+
+
+
+where sku="CCC-012";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-013
+UPDATE product3 SET description=\
+"Change the way you shoot pictures with Sony's new Translucent Mirror Technology DSLR camera. The SLT-A55V Alpha DSLR camera features\
+professional-grade continuous shooting at 10 fps and visibly faster, more accurate focus in Live View and HD Movie modes. Compose your \
+shots on either the LCD monitor or electronic viewfinder with 100% framing accuracy. Advanced features including Auto HDR, Sweep Panorama \
+and 15-point Auto Focus make it dramatically easier to get the best shot."
+
+
+where sku="CCC-013";
+
+UPDATE product3 SET features=\
+"-DIGITAL SLR with Translucent Mirror Technology accelerates AF performance
+-Continuous 10 fps shooting with continuous Phase Detect AF
+-Worlds1st consumer HD video camera w/ cont. Phase Detect AF
+-16.2 megapixels with Sonys Exmor HD APS sensor
+-1080/60i Full AVCHD or 1080/30p movies"
+
+
+
+where sku="CCC-013";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-014
+UPDATE product3 SET description=\
+"Best of both worlds, 24.3 megapixel and up to 10 fps. Get action photos, HD Movies and Live View shots that other cameras miss, thanks to \
+Sony's exclusive Translucent Mirror Technology. Enjoy smooth and creative HD video at full 1920 x 1080 resolution Ð at either 60p or 24p frame\
+rate - plus the world's first OLED electronic viewfinder."
+
+
+where sku="CCC-014";
+
+UPDATE product3 SET features=\
+"-2nd Generation Translucent Mirror Technology camera
+-24.3 MP for superb detail and amazing enlargements
+-Ultra-fast up to 10 fps continuous shooting with Auto Focus
+-World's first OLED viewfinder; big and bright
+-World's first HD Movie mode with AVCHD 60p/60i/24p."
+
+
+
+where sku="CCC-014";
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-015
+UPDATE product3 SET description=\
+"Enhanced Superior Auto supports scenes with dynamic motion to provide beautiful results even in dark situations. The result is clearer images\
+with less blur."
+
+
+where sku="CCC-015";
+
+UPDATE product3 SET features=\
+"-Capture breathtaking images
+-Image stabilization reduces blur
+-Black"
+
+
+
+where sku="CCC-015";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-016
+UPDATE product3 SET description=\
+"8x optical zoom plus 16x Clear Image Digital Zoom
+Get up close with 8x optical zoom plus 16x Clear Image digital zoom. Most digital zooms use electronic cropping to get closer to the subject,\
+resulting in unsharp images. With Clear Image Zoom the powerful processor compares patterns found in adjacent pixels and creates new pixels \
+to match selected patterns, resulting in more realistic, higher-quality images. Clear Image Zoom doubles optical zoom for closer photos."
+
+
+where sku="CCC-016";
+
+UPDATE product3 SET features=\
+"-8x optical zoom plus 16x Clear Image Digital Zoom
+-16.2MP images with stunning low-light performance
+-Wi-Fi sharing to upload photos and videos
+-Full HD 1080/60i with dual record of stills and movies
+-Optical Image stabilization with 2-way active mode for smoother videos."
+
+
+
+where sku="CCC-016";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-017
+UPDATE product3 SET description=\
+"Sony DSCW800/S 20Digital Camera with 2.7-Inch LCD (silver)"
+
+
+where sku="CCC-017";
+
+UPDATE product3 SET features=\
+"-MP Super HAD CCD sensor for beautifully detailed images
+-Sony Lens w/ 5x Optical Zoom
+-Reduced blur with SteadyShot Image stabilization
+-Capture your videos in 720p HD Movie mode
+-Simplify camera menu with Easy Mode
+-Take stunning images in Sweep Panorama mode-up to 360
+-Smile Shutter technology automatically captures smiles"
+
+
+
+where sku="CCC-017";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-018
+UPDATE product3 SET description=\
+"Advanced Flash illuminates distant subjects
+Advanced Flash allows you to shoot bright, beautifully lit photos. The built in flash reaches farther resulting in brighter subjects in dimly \
+lit rooms or outdoors in the evening."
+
+
+where sku="CCC-018";
+
+UPDATE product3 SET features=\
+"-16.1 megapixel plus 8x optical zoom captures detailed subjects
+-Optical SteadyShot Image stabilization with 2-way active mode
+-Capture your videos in 720p HD Movie mode?
+-Creative shooting with Picture and Beauty effects
+-Advanced Flash illuminates distant subjects for beautifully lit photos"
+
+
+
+where sku="CCC-018";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##CCC-019
+UPDATE product3 SET description=\
+"A powerful 16.1 megapixel CCD image sensor helps you capture gorgeous images with superb contrast and clarity down to the finest detail.\
+With 16.1 megapixels, you can create stunning, photo-quality prints up to A3+ (13x19Ó) size, or crop your images and still come away with high \
+resolution shots. The 5x zoom Sony¨ lens helps you get much closer to your subjects."
+
+where sku="CCC-019";
+
+UPDATE product3 SET features=\
+"-16.1 megapixel plus 5x optical zoom captures detailed subjects
+-Capture your videos in 720p HD Movie mode
+-Picture and Beauty Effect for more expressive stills and videos
+-Advanced Flash illuminates distant subjects for perfect photos
+-Take stunning images in Sweep Panorama mode-up to 360Degree."
+
+
+where sku="CCC-019";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##CCC-001
+UPDATE product3 SET description=\
+"Take your best shots yet. This camera's host of powerful yet user-friendly features makes it easy. Like a 16.2MP Exmor R CMOS sensor that\
+delivers richly-detailed photos and Full HD video-even in difficult low-light conditions. Zero in on distant subjects and snap high quality\
+close-ups thanks to 8x optical zoom/16x Clear Image digital zoom. And with built-in Wi-Fi, you can share your shots instantly with friends,\
+family, Facebook and more. Zoom in close for great sports, travel, and wildlife photos. The WX80 boasts 8x optical zoom plus 16x Clear Image\
+digital zoom technology to bring you near enough to capture distant details. A powerful processor reduces graininess for crisper,\
+higher-quality close-ups. With a 16.2 megapixel Exmor R CMOS sensor, capture high-resolution images that take full advantage of the camera's\
+superb quality Carl Zeiss lens. More pixels means you can enlarge, zoom in and crop your photos without losing detail. Advanced processing\
+technology reduces noise and graininess for incredibly crisp, clear images-even in challenging low-light conditions. Record crystal-clear,\
+high-resolution movies with Full HD 1080/60i AVCHD video capture. Stunning, fast-motion video with reduced distortion looks great when played\
+back on your HDTV. Notice a perfect photo op while shooting video? With dual record, you can shoot both stills and video at the same time.\
+Take beautiful, blur-free photos in dark settings-even if your subject is moving-thanks to the newly enhanced Superior Auto mode." 
+where sku="CCC-001";
+
+UPDATE product3 SET features=\
+"- Case Design May Vary\
+- 16.2MP images with stunning low-light performance\
+- Wi-Fi sharing to upload photos and videos\
+- Full HD 1080/60i with dual record of stills and movies\
+- Optical Image stabilization with 2-way active mode for smoother videos."
+where sku="CCC-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##CCC-002
+UPDATE product3 SET description=\
+"Capture amazing detail with the 20.1MP camera than anyone can use. With its self-portrait-friendly zoom lever and 180¡-tilting screen that\
+lets you see the shots as you take them, this camera makes quality photography look easy. Ready to share these frame-worthy moments with\
+friends Faster-than-ever wireless sharing with one-touch NFC connectivity lets you upload to Facebook and more, directly from the\
+camera. Ah, simplicity."
+where sku="CCC-002";
+
+UPDATE product3 SET features=\
+"- 20.1 MP Exmor APS-C sensor for great images\
+- Mirror less DSLR - Compact Interchangeable Lens camera system\
+- Quick Wi-Fi connectivity to smartphones via NFC\
+- Model: ILCE5000L/B."
+where sku="CCC-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##DDD-001
+UPDATE product3 SET description=\
+"Discover the fun to use Panasonic DMC-SZ3 compact zoom camera. SZ3 camera delivers high quality pictures from a small, stylish camera with\
+the ability to personalize your everyday photography. Expressing yourself has never been easier than with the 12 in-camera creative effects.\
+The DMC-SZ3 shoots amazing HD video along with stunning photos making this camera your all-in-one capture system. The DMC-SZ3 digital camera\
+boasts a powerful 10x optical zoom lens (35mm camera equivalent: 25-250mm) giving you natural expressions from people and animals from a\
+distance. The slim camera body easily goes wherever you go - from everyday snapshots to your greatest travels."
+where sku="DDD-001";
+
+UPDATE product3 SET features=\
+"- 16.1 Mega Pixel, 10x optical zoom, 20x Intelligent Zoom, Mega O.I.S.\
+- 2.7\" LCD Screen, Intelligent Auto Mode, Venus Engine, 12 Effective Create Control\
+- 720p Motion JPEG Video, Sonic Speed Auto Focus, Creative Panorama Shot."
+where sku="DDD-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##DDD-002
+UPDATE product3 SET description=\
+"You can thank the Intelligent Zoom function for its smart, ultra-telephoto zooming abilities, bringing your subjects into your frame by 42x.\
+Because of its Intelligent Resolution technology, you can record at high zoom rates while preserving fine image quality and resolution. You\
+get sharp images with incredibly detailed objects - without the nuisance of blurry edges. And if you find yourself shooting indoors or in a\
+darkly set location, don't worry. The V100MK HD Camcorder has a high sensitivity sensor that is more susceptible than conventional sensors,\
+making dark scenes brighter and clearer to the eye. Go on, zoom in on that far away spot that calls to you."
+where sku="DDD-002";
+
+UPDATE product3 SET features=\
+"- 34x optical zoom (42x i.Zoom)\
+- 32.5mm wide lens (F1.8)\
+- Power O.I.S.\
+- Full HD image quality\
+- 16GB memory."
+where sku="DDD-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##DDD-011
+UPDATE product3 SET description=\
+"Experience LUMIX's first compact digital camera to reach a full range F2.8 bright aperture in a 600mm lens whose quick shutter speed lets you \
+capture moving subjects even at long distances. "
+where sku="DDD-011";
+
+UPDATE product3 SET features=\
+"-48x Intelligent zoom, less ghost with Nano Surface Coating Lens, Power O.I.S.
+-60p Full HD Video Recording with OIS Active mode
+-Full range F2.8, 24x Optical Zoom Leica DC Lens
+-12MP new high sensitivity MOS sensor
+-High resolution EVF (1.3M dot), High speed AF 0.1 sec, High speed burst shooting 12fps"
+where sku="DDD-011";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##DDD-012
+UPDATE product3 SET description=\
+"With the dynamic 24x optical zoom you won't miss your child's expressions or your favorite athlete's split-second scoring action, or even the\
+far-away wild animal that is on the prowl. Why? Because the F5.2 wide aperture gives you stunning images and videos produced in a \
+softly-focused background. The advanced LEICA DC VARIO-ELMARIT lens system delivers exceptional optical performance, suppressing distortion \
+and color bleeding on the FZ60 digital camera. A clear and sharp focus in telephoto shots renders superb resolution. Use the digital \
+Intelligent Zoom function and virtually extend 48x bringing your subjects to your frame without moving a step while the built-in Intelligent\
+Resolution technology preserves image quality."
+
+
+where sku="DDD-012";
+
+UPDATE product3 SET features=\
+"-24x Optical Zoom Leica DC Lens
+-48x Intelligent zoom, less ghost with Nano Surface Coating Lens, Power O.I.S.,
+-60i Full HD Video Recording with OIS Active mode
+-0.1 sec Hi-speed AF 10fps hi-speed burst shooting
+-DMC-FZ60 come with one lithium ion battery."
+where sku="DDD-012";
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------##DDD-002
+##DDD-013
+UPDATE product3 SET description=\
+"With the G1, Panasonic has developed an entirely new-concept digital camera that takes even greater advantage of the compactness and light \
+weight inherent in the Four Thirds System Standard. By increasing the number of electrical contacts between camera body and lens, Panasonic\
+has also increased camera expandability and maximized the future potential of the G1, including compatibility with future features. \
+In addition, the versatile G1 accepts not only Micro Four Thirds System interchangeable lenses, but also conventional Four Thirds System\
+lenses (when an optional adapter is mounted). This means that users can continue to use Four Thirds lenses they already own."
+where sku="DDD-013";
+
+UPDATE product3 SET features=\
+"-12.1-megapixel 4/3-type MOS sensor; world's first Micro Four Thirds camera
+-Includes Lumix G Vario 14 - 45 mm F3.5 - F5.6 ASPH.Mega OIS lens
+-Live View Finder and bright 460,000-dot resolution, 3.0-inch LCD
+-New Contrast AF (Auto Focus) function; Face Detection and Intelligent Auto (iA) mode
+-Capture images to SD/SDHC/Multimedia cards (not included)"
+where sku="DDD-013";
+
+
+-------------------------------------------------------------------------------------------------------------------------------------------##DDD-002
+##DDD-014
+UPDATE product3 SET description=\
+"Panasonic LUMIX DMC-LX7K 10.1 MP Digital Camera with 7.5x Intelligent zoom and 3.0-inch LCD - Black. What's in the box: Panasonic Lumix \
+DMC-LX7 Digital Camera (Black), Battery Charger, Battery Pack, USB Cable, Shoulder Strap, CD-ROM, Hot Shoe Cover, Lens cap, Lens Cap String,\
+One Year Limited Warranty."
+where sku="DDD-014";
+
+UPDATE product3 SET features=\
+"-3.8x Optical zoom, 7.5x Intelligent zoom, less ghost with Nano Surface Coating Lens
+-10MP new high sensitivity MOS sensor
+-F1.4-2.3 Leica DC vario SUMMILUX 24mm Wide Angle
+-60p Full HD Video Recording with Stereo Microphone in AVCHD Progressive /MP4,
+-11fps High Speed Continuous Shooting"
+where sku="DDD-014";
+
+-------------------------------------------------------------------------------------------------------------------------------------------##DDD-002
+##EEE-011
+UPDATE product3 SET description=\
+"Be ready for every close-up with the ultra-compact SZ-12 long zoom camera. Stunningly sleek & stylish with a powerful 24x optical zoom and\
+3D Photo Mode, this camera is perfect for family and sporting events alike. Take your HD videos to a whole new level with creative Magic Art\
+Filters like Punk, Fisheye & Pop Art. But that's not all. With Wi-Fi compatibility, there's no need to wait to share your favorite photos on\
+Facebook."
+
+
+where sku="EEE-011";
+
+UPDATE product3 SET features=\
+"-14 Megapixel
+-24x wide-angle zoom
+-3 inch LCD
+-HD Video
+-Dual Image Stabilization."
+where sku="EEE-011";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-012
+UPDATE product3 SET description=\
+"Brains and beauty Ð the VG-160 has it all and then some. This is the camera that offers all the extras without the extra costs. With creative\
+features including One-Touch HD Video, Magic Art Filters, a 26mm Wide-Angle Lens and 5x Optical Zoom, youÕll capture million dollar pictures\
+and video. Options and value Ð itÕs a deal you canÕt refuse."
+where sku="EEE-012";
+
+UPDATE product3 SET features=\
+"-14 Megapixel
+-5x Optical Zoom
+-3 inch LCD
+-HD Video
+-Art Filters."
+where sku="EEE-012";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-013
+UPDATE product3 SET description=\
+"The SP-810UZ is ideal for the traveler, outdoor lover or sports enthusiast who wants to capture the action from a distance but still have the \
+flexibility to take intimate portraits or macro shots without changing lenses. The 3D photo feature adds an extra layer of depth to both\
+landscapes and close-ups. Add artistic flair to images and HD movies with new Magic Art Filters like Watercolor and Reflection."
+where sku="EEE-013";
+
+UPDATE product3 SET features=\
+"-36X Ultra Wide Optical Zoom (24-864mm EQUIVALENT).
+-720P HD Movie with HDMI Control
+-Magic Art Filters (Still & Movie)."
+where sku="EEE-013";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-014
+UPDATE product3 SET description=\
+"From the plains to the mountains, the stadiums to the backyard, the SP-820UZ iHS is the ideal camera for all your photography needs. With a \
+staggering 40x optical zoom you can get incredibly close to your subjects, while the 22.4mm - 896mm ultra wide-angle lens lets you capture\
+breathtaking panoramas and group shots. And thanks to iHS Technology, you'll be able to capture Full HD Video in 1080p, spectacular low light\
+images and fast action subjects. Whether you're taking in a game or quietly snapping images of wildlife from afar, the SP-820UZ packs all the \
+versatility you need to capture your stories."
+where sku="EEE-014";
+
+UPDATE product3 SET features=\
+"-40x, 22.4-896mm Ultra Wide-Angle Optical Zoom Lens
+-iHS Technology
+-14MP CMOS Sensor, TruePic V Image Processor
+-Full HD Video with HDMI and Multi Motion Movie IS
+-High-Speed Sequential Shooting."
+where sku="EEE-014";
+
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-001
+UPDATE product3 SET description=\
+"Be ready for every close-up with the ultra-compact SZ-12 long zoom camera. Stunningly sleek & stylish with a powerful 24x optical zoom and 3D\
+Photo Mode, this camera is perfect for family and sporting events alike. Take your HD videos to a whole new level with creative Magic Art\
+Filters like Punk, Fisheye & Pop Art. But that's not all. With Wi-Fi compatibility, there's no need to wait to share your favorite photos on\
+Facebook.* An elegant look without a hefty price tag."
+where sku="EEE-001";
+
+UPDATE product3 SET features=\
+"- 14 Megapixel\
+- 24x wide-angle zoom\
+- 3 inch LCD\
+- HD Video\
+- Dual Image Stabilization"
+where sku="EEE-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##EEE-002
+UPDATE product3 SET description=\
+"The exclusive Olympus FAST (Frequency Acceleration Sensor Technology) AF System focuses at an astonishing speed and offers 37 separate focus\
+areas in on-chip phase detection mode and 81 areas in contrast detection, spread over the image area."
+where sku="EEE-002";
+
+UPDATE product3 SET features=\
+"- With the new 16MP Live MOS Image Sensor with DUAL FAST PHASE AND CONTRAST AF Sensor\
+- The new, interactive high-definition EVF features a 2.36 million dot resolutionWith the new 16MP Live MOS Image Sensor with DUAL FAST PHASE\
+AND CONTRAST AF Sensor."
+where sku="EEE-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-015
+UPDATE product3 SET description=\
+"The most sophisticated rugged point-and-shoot on the market, the Olympus TG-2 iHS was designed with the serious photographer in mind.\
+In addition to its Shockproof (7ft/2.1m), Crushproof (220lbf/100kgf), Freezeproof (14¡F/-10¡C), Dustproof design, the TG-2 iHS dives deeper \
+than ever before with an astounding waterproof depth rating of 50 feet (15m) without a housing. But donÕt be fooled, this camera's not only \
+for the avid scuba diver, itÕs for active photographers who won't sacrifice image quality and performance. The TG-2 iHS is the only rugged \
+camera on the market equipped with an ultra-bright, high-speed f2.0 lens, allowing you to capture dramatic low light and high-speed action \
+shots. Paired with a 12 megapixel BSI CMOS sensor and TruePic VI Image Processor that fuel Olympus' cutting-edge iHS Technology, you'll get \
+amazing pro image quality and 1080p Full HD Videos in places that your DSLR camera just canÕt risk travelling. And with advanced functions \
+like Aperture Priority mode, youÕll have even more control to capture the exact images that you want! Added features like next generation GPS\
+& e.Compass, a 3.0\" OLED monitor, Linear PCM Stereo audio recording, High-Speed Sequential Shooting up to 60 frames per second, four \
+underwater scene modes and two custom modes make this adventure cam stand out in the crowd! Looking for more? The TG-2 iHS is the only \
+rugged camera to feature system expandability to put even more photographic control in your hands; use the telephoto converter lens to \
+achieve even greater optical zoom range and artistic blur or the wide-angle fisheye lens for more expansive views, especially underwater. \
+The completely waterproof system allows you to take your photography to places that your pro system can only dream of going."
+where sku="EEE-015";
+
+UPDATE product3 SET features=\
+"High-Speed, Ultra-Bright f2.0 Lens
+Waterproof 15m/50ft; Shockproof 2.1m/6.9ft; Crushproof 100kgf/220lbf; Freezeproof -10C/14F; Dustproof, Water-repellant Lens
+GPS and e.Compass, Manometer, Automatic Underwater Balance, Magic Art Filters."
+where sku="EEE-015";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##EEE-016
+UPDATE product3 SET description=\
+"The Olympus-original complete sealing system and double lock construction borrowed from OlympusÕ long history of manufacturing underwater \
+housings ensures that the TG-830iHS is completely waterproof down to a depth of 33ft. Even on land, the TG-830iHS ensures that youÕll never \
+miss an awesome shot just because of heavy rain or snow."
+
+where sku="EEE-016";
+
+UPDATE product3 SET features=\
+"-Waterproof 10m/33ft, Shockproof 2.1m/6.9ft, Crushproof 100kgf/220lbf, Freezeproof -10C/14F, Dustproof
+-16MP BSI CMOS Sensor, TruePic VI Image Processor, High-Speed Performance
+-GPS and e.Compass, Full 1080P Full HD Video."
+where sku="EEE-016";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##EEE-017
+UPDATE product3 SET description=\
+"Adventure doesnÕt stop because it gets dark. Or cold. Or wet. There are still awesome moments to be captured. ItÕs in less than ideal\
+conditions where the 12MP Olympus Tough TG-820 iHS thrives. It has advanced technology to shoot crisp, clear photos Ñ Full HD Videos in \
+1080p too Ñ even when light is scarce. Use the 5x Optical Zoom and 10x Super-Resolution Zoom to get close to the action with amazing clarity. \
+Constructed to be Waterproof, Freezeproof, Shockproof and Crushproof , this camera loves mixing it up with Mother Nature. Connect the TG-820 \
+iHS to an HDTV and watch HD videos you shot with family and friends. The amazing go anywhere, shoot anything TG-820 iHS. Tough shooting \
+conditions conquered."
+where sku="EEE-017";
+
+UPDATE product3 SET features=\
+"-A revolutionary system of waterproof seals and gaskets keeps water out so you can take pictures as deep as 33 feet underwater.
+-Life can be tough, this camera is tougher. A rugged body and innovative shock-absorbing construction allows this camera to withstand a \
+6.6-foot drop, bump, or other mishap.
+-A powerful, DSLR-quality TruePic VI Image Processor and a cutting-edge BSI CMOS sensor come together to dramatically improve image quality\
+with spectacular low-light performance, blazing fast autofocus."
+where sku="EEE-017";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##FFF-001
+UPDATE product3 SET description=\
+"Bring your world closer for everyone to see.With its 21X optical zoom, 25 mm wide-angle lens, Smart Capture, and a fast click-to-capture\
+speed, the Kodak EasyShare Camera / Z5010 makes it easy take stunning images in an instant from any distance. Then, press the Kodak Share\
+button to tag to e-mail, Facebook and more. Just press to impress."
+where sku="FFF-001";
+
+UPDATE product3 SET features=\
+"- 14 megapixels\
+- SCHNEIDER-KREUZNACH, 21X Optical Zoom with Optical Image Stabilization\
+- 25mm Wide Angle Lens\
+- 3\inch Bright LCD\
+- Kodak's Smart Capture Technology"
+where sku="FFF-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##FFF-002
+UPDATE product3 SET description=\
+"1080p HD video. 12 MP BSI CMOS pictures. The Kodak Dual Camera gives you the best of both worlds. Features high-speed video, a mic jack, and\
+built-in flash for optimal performance in any environment. Plus, you can tag your favorites for effortless sharing with Kodak's Share button."
+where sku="FFF-002";
+
+UPDATE product3 SET features=\
+"- Two powerful cameras in one - shoot spectacular 1080p HD video @ 60 fps or take stunning pictures with the 12 MP BSI CMOS sensor\
+- Enhance your shots in dimly lit situations with the built-in Xenon flash\
+- Record and review audio with remarkable fidelity via the external microphone/headphone jack\
+- Grab all the details using high speed video  240 fps or 120 fps for slow motion playback\
+- Relive moments instantly on the 3 in. HVGA LCD featuring KODAK Color Science technology and Glare Shield"
+where sku="FFF-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+##GGG-001
+UPDATE product3 SET description=\
+"The Samsung GC110 Galaxy Camera (Wi-Fi) combines the optics of a superior point-and-shoot digital camera with the brains and features of\
+Android 4.1, Jelly Bean and Wi-Fi connectivity so you can easily shoot, share, and edit images all on one device. With a 16.3-megapixel\
+backside-illuminated sensor and a 21x super-long zoom lens, you'll be shooting and sharing beautiful, high-resolution photos in no time."
+where sku="GGG-001";
+
+UPDATE product3 SET features=\
+"- Wi-Fi Android 4.1.2 (Jellybean)\
+- 4.8\" HD Super Clear Display\
+- 1080p HD Video"
+where sku="GGG-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+##GGG-002
+UPDATE product3 SET description=\
+"The Samsung HMX-W300 Waterproof Pocket HD Camcorder is designed as the ideal companion for sports and outdoor enthusiasts. Waterproof down to\
+five meters, shock-proof from heights of up to two meters and dust-proof, it allows users to capture all the action and adventure of an\
+outdoor lifestyle in 1920 x 1080 Full HD video at 30 fps. Additional features include: 29.6mm wide-angle lens, bright f/2.2 aperture, 3x\
+optical zoom, 2.3-inch LCD screen, built-in USB plug, built-in Intelli-Studio editing software, microSD card slot."
+where sku="GGG-002";
+
+
+UPDATE product3 SET features=\
+"- Waterproof down to 16.4' (5m)\
+- Shockproof from up to 6.5' (2m)\
+- Dustproof (IP6X rated)\
+- 1920 x 1080p 30 fps full HD movie recording\
+- Item Includes: Camera,User Guide,Arm Strap"
+where sku="GGG-002";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##GGG-011
+UPDATE product3 SET description=\
+"Take pictures and share them with your friends quickly and easily from anywhere with the ST150 Smart Camera from Samsung. The camera features\
+a high-resolution 16.2-megapixel CCD sensor and a 5x zoom lens, so you can get close to the action with detail and clarity. Built-in Wi-Fi\
+means you can share everything without needing to fumble with cables."
+where sku="GGG-011";
+
+
+UPDATE product3 SET features=\
+"-16.1MP CCD Sensor.
+-SMART features - Social Media Upload, E-mail, Direct Link, Mobile Link, PC Auto-backup, Remote Viewfinder, All share, Cloud Service.
+-720p HD Video."
+where sku="GGG-011";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##GGG-012
+UPDATE product3 SET description=\
+"Take crystal-clear photos and stunning video with the WB250F Smart Camera from Samsung. With features such as a 14.2-megapixel \
+backside-illuminated sensor and an 18x zoom lens, the WB250F gives you the creative freedom to take great photos even in low-light situations.\
+And with built-in Wi-Fi, you can easily and quickly share your best shots."
+where sku="GGG-012";
+
+
+UPDATE product3 SET features=\
+"-Capture Detailed Images in Low Light situations with a 14PM BSI CMOS Sensor.
+-Share your Best Photos Instantly with Family and Friends with Built-in Wi-Fi.
+-18x Optical Zoom.
+-3.0\" TFT LCD Screen.
+-Samsung color designation is Cobalt Black. Black refers to the color of the lens. Camera color is a dark blue."
+where sku="GGG-012";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##GGG-013
+UPDATE product3 SET description=\
+"The Samsung NX1100 Digital Still Camera offers an ideal balance of size, customizability, and performance. Together with the included copy of\
+Adobe Photoshop Lightroom 4, you'll be shooting, organizing, and post-processing photos like a pro. A sharp, 20.3-megapixel APS-C CMOS sensor,\
+a bundled 20-50mm lens, and an included external flash unit means you'll be taking great photos no matter where you are. The camera has the \
+Samsung NX mount, so you can choose from 12 different Samsung NX lenses. And with built-in Wi-Fi, you can share your best shots right away \
+without fussing with cables and card readers."
+where sku="GGG-013";
+
+
+UPDATE product3 SET features=\
+"-20.3MP APS-C CMOSImage Sensor 20.3MP APS-C CMOSImage Sensor 20.3MP APS-C CMOS Image Sensor.
+-Built-In Wireless Connectivity.
+-Full HD 1080p Video Recording.
+-8FPS RAW and JPEG Continuous Shooting.
+-ISO 100-12800."
+where sku="GGG-013";
+-------------------------------------------------------------------------------------------------------------------------------------------
+##HHH-001
+UPDATE product3 SET description=\
+"Capture and share your life's most meaningful experiences with the HERO3+ Black Edition. 20% smaller and lighter than its best-selling\ predecessor, it delivers improved image quality and powerful new features geared for versatility and convenience. SuperViewª is a new video\ mode that captures the world's most immersive wide angle perspective, while Auto Low Light mode intelligently adjusts frame rate for stunning\
+low-light performance. Combined with 30% longer battery life, faster built-in Wi-Fi and a sharper lens, the HERO3+ Black Edition is the most\
+advanced GoPro yet."
+where sku="HHH-001";
+
+
+UPDATE product3 SET features=\
+"- 20% smaller and lighter housing (waterproof to 131\'/40m)\
+- 33% improved image sharpness and reduced distortion\
+- Faster built in Wi-Fi for enhanced connectivity to the Wi-Fi Remote (included) and GoPro App\
+- Super View video mode captures the world\"s most immersive wide angle perspective\
+- 30% longer battery life."
+where sku="HHH-001";
+-------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+ 
+

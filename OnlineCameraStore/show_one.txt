@@ -1,0 +1,7 @@
+use jadrn026; 
+select sku, manufacturers_id, cost, product_image, description from product3 where sku="AAU-002";
+
+
+
+ 
+

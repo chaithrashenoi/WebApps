@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>SNAPiT</title>
+	<link href="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link href="/jadrn026/servlets/proj3/post_ajax3.css" rel="stylesheet">
+	<script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+  <script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+	<script>
+	$(function() {
+	 $( "#menu1" ).menu();
+	 });
+	$(function() {
+	 $( "#menu2" ).menu();
+	 });	</script>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	
+
+	
+	</style>
+</head>
+<body>
+</head>
+<body>
+<div id="header">
+<h2 align="center">SNAP<i>i</i>T</h1>
+<h3>SAME DAY SHIPPING<br> on most orders till 8pm</h2>
+<table id="table2"  >
+<tr>
+<td>
+<form method="post" 
+      action="../../servlet/proj3/SearchKey"
+			name="search">
+<input id="key" type="text" name="key" size="40" placeholder="search by #sku, name, brand or category " >
+<input name="send"  type="submit"  value="SEARCH">
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<nav id="tabs_nav">
+  <ul>
+		<li><a href="/jadrn026/proj3.html">Home</a></li>
+		<li><a href="/jadrn026/servlets/proj3/Contact.html">Contact Us</a></li>
+		<li  class="active"><a href="/jadrn026/servlets/proj3/About.html">About Us</a></li>
+		<li><a href="/jadrn026/servlet/proj3/ShowCart">Show Cart</a></li>
+  </ul>
+</nav>
+
+
+<div >
+<fieldset style="width: 700px;border-radius: 10px;font-size: 13px;  margin:auto; box-shadow: 4px 4px 3px #333329;border-color: #424242;">
+ 
+ 
+ 
+ 
+<p><h4><b>Shipping Policy</b></h4><br/> 
+Your actual shipping charges for each product will be shown to you prior to completion of the checkout process. We calculate delivery
+estimates by taking the estimated shipping time and adding the time it takes a package to travel from our facilities to your destination
+address, based on the shipping speed you've chosen.</p><br/><br/> 
+ 
+<p><h4><b>Cancel an order</b></h4><br/>
+Due to our commitment to process orders quickly, there is a short period of time in which you may cancel your order. You may choose to cancel
+your entire order or a portion of your order as long as the order has not yet been sent to our warehouse for fulfillment. Once the order has
+been sent to our warehouse for fulfillment, we can request cancellation, however, should your order/item(s) ship, simply REFUSE delivery,
+and when the merchandise is returned to us a refund will be initiated.
+</p><br/><br/>
+
+<p></p><h4><b>Return Policy</b></h4><br/>
+We believe that in order to have the best possible online shopping experience, our customers should be 100% satisfied with their purchase.
+So, if you're not happy with your purchase for any reason, just go through our easy self-service return process.
+
+All returns must meet our guidelines, please review our full Return Policy carefully.</p><br/><br/>
+
+<p><h4><b>Returning an Item</b></h4><br/>
+
+Returns must be made within the 10 days from the day of delivery.<br/><br/>
+Returned products must be in brand new condition and have all original manufacturers packaging, materials, and accessories.</br><br/>
+Securely package the product you wish to return within an outer box. Do not write or place shipping labels or stickers on the manufacturer's
+packaging.</p><br/><br/>
+
+<p><h4><b>Ship the package back to:</b></h4><br/>
+42 North 20th Street<br/>
+New York, NY 10011.
+</p><br/><br/>
+
+<p><h4><b>Physical Damage Policy</b></h4><br/>
+Physically damaged items cannot be returned.</p><br/><br/> 
+ 
+
+</fieldset>
+</div>
+<div id="footer">
+<p align="center" >481 EL CAMINO REAL,Santa Clara, CA, 95050. 2013 SNAPiT, Inc. All rights reserved.<br>
+Encountered problems with this site? Contact:(000)000 000.
+</p>
+</div>
+</body>
+</html>

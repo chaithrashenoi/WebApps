@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="us">
+<head>
+	<meta charset="utf-8">
+	<title>SNAPiT</title>
+	<link href="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/css/custom-theme/jquery-ui-1.10.4.custom.css" rel="stylesheet">
+	<link href="/jadrn026/servlets/proj3/post_ajax3.css" rel="stylesheet">
+	<script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-1.10.2.js"></script>
+  <script src="/jadrn026/servlets/proj3/jquery-ui-1.10.4.custom/js/jquery-ui-1.10.4.custom.js"></script>
+	<script>
+	$(function() {
+	 $( "#menu1" ).menu();
+	 });
+	$(function() {
+	 $( "#menu2" ).menu();
+	 });	</script>
+	<style>
+	body{
+		font: 62.5% "Trebuchet MS", sans-serif;
+		margin: 50px;
+	}
+	#dialog-link {
+		padding: .4em 1em .4em 20px;
+		text-decoration: none;
+		position: relative;
+	}
+	#dialog-link span.ui-icon {
+		margin: 0 5px 0 0;
+		position: absolute;
+		left: .2em;
+		top: 50%;
+		margin-top: -8px;
+	}
+	#icons {
+		margin: 0;
+		padding: 0;
+	}
+	#icons li {
+		margin: 2px;
+		position: relative;
+		padding: 4px 0;
+		cursor: pointer;
+		float: left;
+		list-style: none;
+	}
+	#icons span.ui-icon {
+		float: left;
+		margin: 0 4px;
+	}
+	.fakewindowcontain .ui-widget-overlay {
+		position: absolute;
+	}
+	
+
+	
+	</style>
+</head>
+<body>
+
+<div id="header">
+<h2 align="center">SNAP<i>i</i>T</h2>
+<h3>SAME DAY SHIPPING<br> on most orders till 8pm</h3>
+<table id="table2"  >
+<tr>
+<td>
+<form method="post" 
+      action="../../servlet/proj3/SearchKey"
+			name="search">
+<input id="key" type="text" name="key" size="40" placeholder="search by #sku, name, brand or category " >
+<input name="send"  type="submit"  value="SEARCH">
+</form>
+</td>
+</tr>
+</table>
+</div>
+
+<nav id="tabs_nav">
+  <ul>
+		<li class="active"><a href="/jadrn026/proj3.html">Home</a></li>
+		<li><a href="/jadrn026/servlets/proj3/Contact.html">Contact Us</a></li>
+		<li><a href="/jadrn026/servlets/proj3/About.html">About Us</a></li>
+		<li><a href="/jadrn026/servlet/proj3/ShowCart">Show Cart</a></li>
+  </ul>
+</nav>
+
+<div id="mainContainer">
+
+<div id="table_div" style="float: right; min-width: 900px;" >
+<table id="table_pr" class="no_border">
+<tr class="tr_border">
+	<td class="td_border" >
+		<div id="div_tile">
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Digital SLR" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/DigitalSLRs.jpg"><br>Digital SLR</a>       
+		</div> 
+	</td >
+	<td class="td_border">
+		<div id="div_tile" >
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Lenses" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Lenses.jpg"><br>Lenses</a>
+		</div>
+	</td>
+	<td class="td_border">
+		<div id="div_tile" >
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Point and Shoot" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Pointshoot.jpg"><br>Point and Shoot</a>
+		</div>
+	</td>
+</tr >
+<tr class="tr_border">
+	<td class="td_border">
+		<div id="div_tile" >
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Underwater" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Underwater.jpg"><br>Underwater</a>
+		</div>
+	</td>
+	<td class="td_border">
+		<div id="div_tile" >
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Digital camera" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Digital_camera.jpg"><br>Digital camera</a>
+		</div>
+	</td>
+	<td class="td_border">
+		<div id="div_tile" >
+			<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Film SLR" >
+				<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Film_SLR.jpg"><br>Film SLR</a>
+		</div>
+	</td>
+</tr>
+
+<tr class="tr_border">
+	
+<td class="td_border">
+<div id="div_tile" >
+	<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Mirror-less" >
+		<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Mirrorless.jpg"><br>Mirror-less</a>
+</div>
+</td>
+
+<td class="td_border">
+<div id="div_tile">
+	<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Memory Cards" >
+		<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/MemoryCards.jpg"><br>Memory Cards</a>
+</div>
+</td>
+
+<td class="td_border">
+<div id="div_tile" >
+	<a  href="/jadrn026/servlet/proj3/ShowCategory?category=Tripods" >
+		<img id="img_tile" src="http://jadran.sdsu.edu/~jadrn026/proj3/Tripods.jpg" ><br>Tripods</a>
+</div>
+</td>
+</tr>
+
+</table>
+</div>
+
+
+<div id="menu_pane">
+	<div id="menuLeft1">	
+		<h1>By Category</h1>
+			<ul id="menu1">
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Digital SLR">Digital SLR</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Lenses">Lenses</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Point and Shoot">Point and Shoot</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Underwater">Underwater</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Digital camera">Digital camera</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Film SLR">Film SLR</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Mirror-less">Mirror-less</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Memory Cards">Memory Cards</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowCategory?category=Tripods">Tripods</a></li>
+		</ul>
+	</div>
+
+	<div id="menuLeft2">	
+		<h1>By Brand</h1>
+		<ul id="menu2">
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=Nikon">Nikon</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=Canon">Canon</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=Sony">Sony</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=panasonic">panasonic</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=olympus">olympus</a></li>
+			<li><a href="/jadrn026/servlet/proj3/ShowBrand?vendor=samsung">samsung</a></li>
+		</ul>
+	</div>
+
+</div>
+
+
+
+
+
+<div id="footerPr" style="clear: both;">
+<p align="center" >481 EL CAMINO REAL,Santa Clara, CA, 95050. 2013 SNAPiT, Inc. All rights reserved.<br>
+Encountered problems with this site? Contact:(000)000 000.
+</p>
+</div>
+</div>
+</body>
+</html>
