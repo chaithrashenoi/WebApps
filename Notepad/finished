@@ -1,0 +1,48 @@
+
+==================================================
+Proj1 fixes
+
+link: http://jadran.sdsu.edu/~jadrn026/proj1
+==================================================
+1) HTML/CSS, Form quality and Layout
+
+Should not have menu page with Inventory Record and Logout options. Just an extra step to annoy 
+
+users.
+
+Changes done:
+[x] Removed menu page. Now after Login succedes "New Record" page gets loaded.
+========================================================================================
+
+How do I get to edit/delete after adding a product?? No Links to click that I can see
+
+Changes done:
+[x] Now edit/delete page is kept same as "New Record" with navigation links.
+=======================================================================================
+
+Background is odd, side columns with unidentiﬁable content. (See attachment)
+
+Changes done:
+[x] Changed background and there is no unidentiﬁable content now.
+=======================================================================================
+
+Tab Example is not an appropriate title for this.
+
+Changes done:
+[x] Changed title to "Inventory"
+=======================================================================================
+
+2) Javascript/AJAX
+
+First ﬁeld in form should get focus.
+
+Changes done:
+[x] Added focus to first field for all the inventory pages.
+=======================================================================================
+5) Design and overall comments
+
+Difﬁcult to use.
+
+Changes done:
+[x] Simplified design by removing menu page and easier navigation between inventory pages.
+=======================================================================================

@@ -1,0 +1,105 @@
+/** Add css rules here for your application. */
+
+
+/** Example rules used by the template application (remove for your app) */
+body#notepad {
+	
+	background-image:url("brown.jpg");
+    height: 100%;
+    width:100%;
+	
+}
+h2{
+  font-size:20px;
+  font-family: monospace;
+  color: white;
+  text-align: center;
+  margin: 10px 0px 50px;
+  font-weight: bold;
+	
+	
+	
+}
+h1 {
+  font-size: 4em;
+  font-family: monospace;
+  font-weight: bold;
+  color: white;
+  margin: 20px 0px 50px;
+  text-align: center;
+}
+.login-grid {
+	
+	display:block;
+	color:white;
+	width:400px;
+	height:130px;
+	margin:0 auto 0 auto;
+	border: 2px solid #777 ;
+	-moz-border-radius:10px;
+	-webkit-border-radius:10px;	
+	border-radius:10px;
+}
+.gwt-RichTextArea{
+	display:block;
+	-moz-border-radius:20px;
+	-webkit-border-radius:20px;	
+	border-radius:20px;
+	width:750px;
+	height:500px;
+	margin:0 auto 0 auto;
+	background-image:url("bckgrnd1.jpg");
+	border: 2px solid #777 !important;
+	
+}
+.my-Button {
+	-moz-border-radius:15px;
+	-webkit-border-radius:15px;	
+	border-radius:15px;
+	color:#8A2908;
+    background: white;	
+	width:80px;
+	font-weight:bold;
+	font-size:15px;
+	
+}
+
+.title-label {
+	font-weight:bold;
+	font-size:15px;
+	color: white;
+}
+
+.title-text {
+	margin-right: 50px;
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;	
+	border-radius:5px;
+	color:black;
+    background: #FFFF99;	
+	width:200px;
+	font-weight:bold;
+	font-size:15px;
+}
+
+.button-panel{
+	width:750px;
+	align: left;
+	display:block;
+	margin:0 auto 0 auto;
+}
+
+.listbox {
+	width: 100px;
+}
+
+.status{
+	display:block;
+	text-align:center;
+	font-style:italic;
+	color:#EEE;
+	
+	
+
+	}
+	
